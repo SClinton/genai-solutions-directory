@@ -166,6 +166,19 @@ body {
   flex-wrap: wrap;
 }
 
+.header-title-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+}
+
 .site-header h1 {
   margin: 0;
   font-family: var(--font-heading);
