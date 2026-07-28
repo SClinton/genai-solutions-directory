@@ -239,6 +239,12 @@
     updateFacetToggleLabels();
   }
 
+  function formatCount(n) {
+    n = Number(n) || 0;
+    if (n >= 1000) return `${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}k`;
+    return String(n);
+  }
+
   function renderCards(list) {
     cardsEl.innerHTML = "";
     for (const s of list) {
@@ -256,6 +262,11 @@
       versionEl.textContent = `v${s.version}`;
       versionEl.title =
         s.versionCount > 1 ? `Version ${s.version} of ${s.versionCount}` : `Version ${s.version}`;
+
+      const starsEl = node.querySelector('[data-stat="stars"]');
+      if (starsEl) starsEl.textContent = formatCount(s.stars);
+      const forksEl = node.querySelector('[data-stat="forks"]');
+      if (forksEl) forksEl.textContent = formatCount(s.forks);
 
       const slots = {
         header: node.querySelector(".card-type-badge"),
