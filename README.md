@@ -1,7 +1,7 @@
 # OWASP GenAI Security Project Solution Directory
 
 The published static site for the OWASP GenAI Security Project Solution Directory, served via
-GitHub Pages: https://sclinton.github.io/agentic-security-solutions/
+GitHub Pages: https://sclinton.github.io/genai-solutions-directory/
 
 **This repo holds only the published output** — HTML/CSS/JS and the generated per-solution JSON
 data each database's pages fetch at runtime. Source CSVs, build scripts, `apply_edit.py`, and
@@ -48,7 +48,7 @@ GitHub Pages requires for any content it serves.
 tabbed directory (tabs + all databases) into another site:
 
 ```html
-<iframe src="https://sclinton.github.io/agentic-security-solutions/embed.html"
+<iframe src="https://sclinton.github.io/genai-solutions-directory/embed.html"
         style="width:100%; border:0; min-height:700px"></iframe>
 ```
 
