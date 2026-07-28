@@ -576,6 +576,18 @@ html.embedded .site-header {
   color: var(--card-head-text-muted);
 }
 
+.card-type-badge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.card-type-badge:empty {
+  display: none;
+}
+
 .card-description {
   margin: 0;
   padding: 0 18px;

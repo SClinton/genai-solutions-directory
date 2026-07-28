@@ -257,8 +257,11 @@
       versionEl.title =
         s.versionCount > 1 ? `Version ${s.version} of ${s.versionCount}` : `Version ${s.version}`;
 
-      const tagRowsTopEl = node.querySelector(".card-tag-rows-top");
-      const tagRowsEl = node.querySelector(".card-tag-rows");
+      const slots = {
+        header: node.querySelector(".card-type-badge"),
+        top: node.querySelector(".card-tag-rows-top"),
+        bottom: node.querySelector(".card-tag-rows"),
+      };
       (cfg.cardTagRows || []).forEach((row) => {
         const values = s[row.key] || [];
         if (!values.length) return;
@@ -270,7 +273,8 @@
           tag.textContent = v;
           rowEl.appendChild(tag);
         });
-        (row.top && tagRowsTopEl ? tagRowsTopEl : tagRowsEl).appendChild(rowEl);
+        const target = slots[row.slot] || slots.bottom;
+        target.appendChild(rowEl);
       });
 
       const coverageEl = node.querySelector(".card-coverage");
