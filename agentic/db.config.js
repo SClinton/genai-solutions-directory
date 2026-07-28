@@ -30,7 +30,7 @@ window.DB_CONFIG = {
   // Tag rows shown on each card
   cardTagRows: [
     { key: "solution_types", tagClass: "tag-type", slot: "header" },
-    { key: "llmops_stages", tagClass: "tag-llmops", slot: "top" },
+    { key: "llmops_stages", tagClass: "tag-llmops", slot: "header-stage" },
     { key: "top10_2026", tagClass: "tag-risk" },
   ],
 

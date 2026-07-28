@@ -34,6 +34,7 @@
   --card-head-text-muted: #bfe3d2;
 
   --shadow: 0 1px 2px rgba(20, 24, 33, 0.06), 0 1px 1px rgba(20, 24, 33, 0.04);
+  --card-shadow: 0 4px 10px rgba(20, 24, 33, 0.12), 0 1px 3px rgba(20, 24, 33, 0.08);
   --radius: 10px;
 
   --font-body: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -70,6 +71,7 @@
     --card-head-text-muted: #9cc4b1;
 
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -537,7 +539,7 @@ html.embedded .site-header {
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: var(--card-shadow);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -551,9 +553,7 @@ html.embedded .site-header {
   padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  height: 118px;
-  overflow: hidden;
+  gap: 6px;
 }
 
 .card-edit-btn {
@@ -577,12 +577,55 @@ html.embedded .site-header {
   background: rgba(255, 255, 255, 0.24);
 }
 
+.card-header-stage-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-right: 30px;
+}
+
+.card-header-stage-row[hidden] {
+  display: none;
+}
+
+.card-header-stage-label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--card-head-text-muted);
+  flex-shrink: 0;
+}
+
+.card-header-stage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.card-type-badge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.card-type-badge:empty {
+  display: none;
+}
+
+.card-title-group {
+  padding: 10px 14px 0;
+}
+
 .card-title {
   margin: 0;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 0.98rem;
-  color: var(--card-head-text);
+  color: var(--text-strong);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -593,22 +636,10 @@ html.embedded .site-header {
 
 .card-company {
   font-size: 0.76rem;
-  color: var(--card-head-text-muted);
+  color: var(--text-muted);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.card-type-badge {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 5px;
-  margin-top: 6px;
-}
-
-.card-type-badge:empty {
-  display: none;
 }
 
 .card-description {

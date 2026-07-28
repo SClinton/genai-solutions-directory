@@ -270,7 +270,7 @@
 
       const slots = {
         header: node.querySelector(".card-type-badge"),
-        top: node.querySelector(".card-tag-rows-top"),
+        "header-stage": node.querySelector(".card-header-stage"),
         bottom: node.querySelector(".card-tag-rows"),
       };
       (cfg.cardTagRows || []).forEach((row) => {
@@ -287,6 +287,11 @@
         const target = slots[row.slot] || slots.bottom;
         target.appendChild(rowEl);
       });
+
+      const stageRow = node.querySelector(".card-header-stage-row");
+      if (stageRow && slots["header-stage"] && slots["header-stage"].children.length === 0) {
+        stageRow.hidden = true;
+      }
 
       const coverageEl = node.querySelector(".card-coverage");
       const detailsEl = node.querySelector(".card-details");
