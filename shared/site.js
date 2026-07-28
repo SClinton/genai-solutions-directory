@@ -273,17 +273,27 @@
         "header-stage": node.querySelector(".card-header-stage"),
         bottom: node.querySelector(".card-tag-rows"),
       };
+      const HEADER_STAGE_CAP = 3;
       (cfg.cardTagRows || []).forEach((row) => {
         const values = s[row.key] || [];
         if (!values.length) return;
         const rowEl = document.createElement("div");
         rowEl.className = "card-tags";
-        values.forEach((v) => {
+        const isHeaderStage = row.slot === "header-stage";
+        const shown = isHeaderStage ? values.slice(0, HEADER_STAGE_CAP) : values;
+        shown.forEach((v) => {
           const tag = document.createElement("span");
           tag.className = `tag ${row.tagClass}`;
           tag.textContent = v;
           rowEl.appendChild(tag);
         });
+        if (isHeaderStage && values.length > HEADER_STAGE_CAP) {
+          const more = document.createElement("span");
+          more.className = `tag ${row.tagClass} tag-more`;
+          more.textContent = `+${values.length - HEADER_STAGE_CAP}`;
+          more.title = values.slice(HEADER_STAGE_CAP).join(", ");
+          rowEl.appendChild(more);
+        }
         const target = slots[row.slot] || slots.bottom;
         target.appendChild(rowEl);
       });

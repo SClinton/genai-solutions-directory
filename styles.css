@@ -553,7 +553,10 @@ html.embedded .site-header {
   padding: 12px 14px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 6px;
+  height: 46px;
+  overflow: hidden;
 }
 
 .card-edit-btn {
@@ -580,8 +583,9 @@ html.embedded .site-header {
 .card-header-stage-row {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 6px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 5px;
   padding-right: 30px;
 }
 
@@ -592,7 +596,7 @@ html.embedded .site-header {
 .card-header-stage-label {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--card-head-text-muted);
@@ -601,8 +605,30 @@ html.embedded .site-header {
 
 .card-header-stage {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
+  min-width: 0;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, black calc(100% - 14px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black calc(100% - 14px), transparent 100%);
+}
+
+.card-header-stage .card-tags {
+  flex-wrap: nowrap;
+  gap: 3px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-header-stage .tag {
+  font-size: 0.6rem;
+  padding: 1px 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.card-header-stage .tag-more {
+  background: rgba(255, 255, 255, 0.16);
+  color: var(--card-head-text);
+  font-weight: 700;
 }
 
 .card-type-badge {
