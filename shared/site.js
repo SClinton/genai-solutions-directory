@@ -257,6 +257,7 @@
       versionEl.title =
         s.versionCount > 1 ? `Version ${s.version} of ${s.versionCount}` : `Version ${s.version}`;
 
+      const tagRowsTopEl = node.querySelector(".card-tag-rows-top");
       const tagRowsEl = node.querySelector(".card-tag-rows");
       (cfg.cardTagRows || []).forEach((row) => {
         const values = s[row.key] || [];
@@ -269,7 +270,7 @@
           tag.textContent = v;
           rowEl.appendChild(tag);
         });
-        tagRowsEl.appendChild(rowEl);
+        (row.top && tagRowsTopEl ? tagRowsTopEl : tagRowsEl).appendChild(rowEl);
       });
 
       const coverageEl = node.querySelector(".card-coverage");
