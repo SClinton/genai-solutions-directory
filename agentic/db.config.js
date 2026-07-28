@@ -8,7 +8,22 @@ window.DB_CONFIG = {
   // Sidebar filters on index.html
   facets: [
     { key: "solution_types", label: "Solution Type", tagClass: "tag-type" },
-    { key: "stage", label: "AI-SDLC Stage", tagClass: "tag-llmops" },
+    {
+      key: "stage",
+      label: "AI-SDLC Stage",
+      tagClass: "tag-llmops",
+      order: [
+        "Scoping/Planning",
+        "Data Augmentation & Fine-Tuning",
+        "Development & Experimentation",
+        "Test & Evaluation",
+        "Release",
+        "Deploy",
+        "Operate",
+        "Monitor",
+        "Govern",
+      ],
+    },
     { key: "top10_2026", label: "Agentic Top 10 (2026)", tagClass: "tag-risk" },
   ],
 
