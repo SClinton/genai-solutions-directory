@@ -608,8 +608,8 @@ html.embedded .site-header {
 .card-type-badge {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   gap: 5px;
+  margin-bottom: 4px;
 }
 
 .card-type-badge:empty {
