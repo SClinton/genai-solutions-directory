@@ -25,7 +25,7 @@ window.DB_CONFIG = {
       ],
     },
     { key: "team", label: "Red / Blue / Purple Team", tagClass: "tag-team" },
-    { key: "risk_maps", label: "Risk Maps Supported", tagClass: "tag-risk" },
+    { key: "risk_maps", label: "Risk Posture", tagClass: "tag-risk" },
   ],
 
   // Tag rows shown on each card
