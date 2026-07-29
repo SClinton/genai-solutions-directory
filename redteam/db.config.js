@@ -25,7 +25,7 @@ window.DB_CONFIG = {
       ],
     },
     { key: "team", label: "Red Teaming Coverage", tagClass: "tag-team" },
-    { key: "risk_maps", label: "Risk Posture", tagClass: "tag-risk" },
+    { key: "risk_maps", label: "Risk Posture Report", tagClass: "tag-risk" },
   ],
 
   // Tag rows shown on each card

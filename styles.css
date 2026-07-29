@@ -20,6 +20,9 @@
   --type-badge-bg: #d1d0fe;
   --type-badge-text: #533ef6;
 
+  --solution-type-bg: #e8edf3;
+  --solution-type-text: #3c4a5e;
+
   --llmops-tag-bg: #d6f2ef;
   --llmops-tag-text: #007367;
 
@@ -64,6 +67,9 @@
     --type-badge-bg: #322a5c;
     --type-badge-text: #b9b3ff;
 
+    --solution-type-bg: #2a3441;
+    --solution-type-text: #c3cdd9;
+
     --llmops-tag-bg: #163832;
     --llmops-tag-text: #6cd9c8;
 
@@ -101,6 +107,9 @@
   --tag-text: #6b7280;
   --type-badge-bg: #d1d0fe;
   --type-badge-text: #533ef6;
+
+  --solution-type-bg: #e8edf3;
+  --solution-type-text: #3c4a5e;
   --llmops-tag-bg: #d6f2ef;
   --llmops-tag-text: #007367;
   --risk-bg: #fdeeee;
@@ -130,6 +139,8 @@
   --tag-text: #b7c2dd;
   --type-badge-bg: #322a5c;
   --type-badge-text: #b9b3ff;
+  --solution-type-bg: #2a3441;
+  --solution-type-text: #c3cdd9;
   --llmops-tag-bg: #163832;
   --llmops-tag-text: #6cd9c8;
   --risk-bg: #2e1f22;
@@ -710,8 +721,8 @@ html.embedded .site-header {
 }
 
 .tag-type {
-  background: var(--type-badge-bg);
-  color: var(--type-badge-text);
+  background: var(--solution-type-bg);
+  color: var(--solution-type-text);
   font-weight: 600;
 }
 
