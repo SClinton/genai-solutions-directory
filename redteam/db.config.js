@@ -32,7 +32,15 @@ window.DB_CONFIG = {
   cardTagRows: [
     { key: "solution_types", tagClass: "tag-type", slot: "header" },
     { key: "lifecycle_stages", tagClass: "tag-llmops", slot: "header-stage" },
-    { key: "team", tagClass: "tag-team" },
+    {
+      key: "team",
+      tagClass: "tag-team",
+      tagClassByValue: {
+        Red: "tag-team-red",
+        Blue: "tag-team-blue",
+        Purple: "tag-team-purple",
+      },
+    },
     { key: "risk_maps", tagClass: "tag-risk" },
   ],
 

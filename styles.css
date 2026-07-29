@@ -29,6 +29,13 @@
   --team-tag-bg: #fde8cf;
   --team-tag-text: #92400e;
 
+  --team-red-bg: #fce7f3;
+  --team-red-text: #9f1239;
+  --team-blue-bg: #dbeafe;
+  --team-blue-text: #1e3a8a;
+  --team-purple-bg: #ede9fe;
+  --team-purple-text: #5b21b6;
+
   --card-head-bg: #1b4332;
   --card-head-text: #ffffff;
   --card-head-text-muted: #bfe3d2;
@@ -66,6 +73,13 @@
     --team-tag-bg: #3a2a12;
     --team-tag-text: #f0b968;
 
+    --team-red-bg: #3a1a24;
+    --team-red-text: #f584ac;
+    --team-blue-bg: #1a2a45;
+    --team-blue-text: #93c5fd;
+    --team-purple-bg: #2c1f45;
+    --team-purple-text: #c4b5fd;
+
     --card-head-bg: #12291e;
     --card-head-text: #f4f5f7;
     --card-head-text-muted: #9cc4b1;
@@ -93,6 +107,12 @@
   --risk-text: #9a3030;
   --team-tag-bg: #fde8cf;
   --team-tag-text: #92400e;
+  --team-red-bg: #fce7f3;
+  --team-red-text: #9f1239;
+  --team-blue-bg: #dbeafe;
+  --team-blue-text: #1e3a8a;
+  --team-purple-bg: #ede9fe;
+  --team-purple-text: #5b21b6;
   --card-head-bg: #1b4332;
   --card-head-text: #ffffff;
   --card-head-text-muted: #bfe3d2;
@@ -116,6 +136,12 @@
   --risk-text: #e08a8a;
   --team-tag-bg: #3a2a12;
   --team-tag-text: #f0b968;
+  --team-red-bg: #3a1a24;
+  --team-red-text: #f584ac;
+  --team-blue-bg: #1a2a45;
+  --team-blue-text: #93c5fd;
+  --team-purple-bg: #2c1f45;
+  --team-purple-text: #c4b5fd;
   --card-head-bg: #12291e;
   --card-head-text: #f4f5f7;
   --card-head-text-muted: #9cc4b1;
@@ -703,6 +729,24 @@ html.embedded .site-header {
 .tag-team {
   background: var(--team-tag-bg);
   color: var(--team-tag-text);
+  font-weight: 600;
+}
+
+.tag-team-red {
+  background: var(--team-red-bg);
+  color: var(--team-red-text);
+  font-weight: 600;
+}
+
+.tag-team-blue {
+  background: var(--team-blue-bg);
+  color: var(--team-blue-text);
+  font-weight: 600;
+}
+
+.tag-team-purple {
+  background: var(--team-purple-bg);
+  color: var(--team-purple-text);
   font-weight: 600;
 }
 

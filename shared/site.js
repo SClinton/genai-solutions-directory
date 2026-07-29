@@ -280,7 +280,8 @@
         rowEl.className = "card-tags";
         values.forEach((v) => {
           const tag = document.createElement("span");
-          tag.className = `tag ${row.tagClass}`;
+          const cls = (row.tagClassByValue && row.tagClassByValue[v]) || row.tagClass;
+          tag.className = `tag ${cls}`;
           tag.textContent = v;
           rowEl.appendChild(tag);
         });
