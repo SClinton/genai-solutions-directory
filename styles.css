@@ -497,6 +497,14 @@ html.embedded .site-header {
   margin: 0 0 16px;
 }
 
+/* 40% smaller than the base .btn-primary (used elsewhere, e.g. form
+   submit buttons, at full size). */
+.sort-bar .btn-primary {
+  padding: 5px 11px;
+  font-size: 0.54rem;
+  border-radius: 6px;
+}
+
 .sort-control {
   display: flex;
   align-items: center;
@@ -547,9 +555,10 @@ html.embedded .site-header {
   padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 6px;
-  min-height: 46px;
+  height: 108px;
+  overflow: hidden;
 }
 
 .card-edit-btn {
@@ -620,6 +629,10 @@ html.embedded .site-header {
 
 .card-type-badge:empty {
   display: none;
+}
+
+.card-type-badge .card-tags {
+  padding: 0;
 }
 
 .card-title-group {
