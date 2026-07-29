@@ -23,8 +23,8 @@
   --solution-type-bg: #e8edf3;
   --solution-type-text: #3c4a5e;
 
-  --llmops-tag-bg: #d6f2ef;
-  --llmops-tag-text: #007367;
+  --llmops-tag-bg: #f0dcae;
+  --llmops-tag-text: #6b4b0c;
 
   --risk-bg: #fdeeee;
   --risk-text: #9a3030;
@@ -39,9 +39,9 @@
   --team-purple-bg: #ede9fe;
   --team-purple-text: #5b21b6;
 
-  --card-head-bg: #1b4332;
+  --card-head-bg: #2a1a3b;
   --card-head-text: #ffffff;
-  --card-head-text-muted: #bfe3d2;
+  --card-head-text-muted: #cbb8e0;
 
   --shadow: 0 1px 2px rgba(20, 24, 33, 0.06), 0 1px 1px rgba(20, 24, 33, 0.04);
   --card-shadow: 0 4px 10px rgba(20, 24, 33, 0.12), 0 1px 3px rgba(20, 24, 33, 0.08);
@@ -70,8 +70,8 @@
     --solution-type-bg: #2a3441;
     --solution-type-text: #c3cdd9;
 
-    --llmops-tag-bg: #163832;
-    --llmops-tag-text: #6cd9c8;
+    --llmops-tag-bg: #4a3a1a;
+    --llmops-tag-text: #f0c96a;
 
     --risk-bg: #2e1f22;
     --risk-text: #e08a8a;
@@ -86,9 +86,9 @@
     --team-purple-bg: #2c1f45;
     --team-purple-text: #c4b5fd;
 
-    --card-head-bg: #12291e;
+    --card-head-bg: #1f1330;
     --card-head-text: #f4f5f7;
-    --card-head-text-muted: #9cc4b1;
+    --card-head-text-muted: #b39cd0;
 
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -110,8 +110,8 @@
 
   --solution-type-bg: #e8edf3;
   --solution-type-text: #3c4a5e;
-  --llmops-tag-bg: #d6f2ef;
-  --llmops-tag-text: #007367;
+  --llmops-tag-bg: #f0dcae;
+  --llmops-tag-text: #6b4b0c;
   --risk-bg: #fdeeee;
   --risk-text: #9a3030;
   --team-tag-bg: #fde8cf;
@@ -122,9 +122,9 @@
   --team-blue-text: #1e3a8a;
   --team-purple-bg: #ede9fe;
   --team-purple-text: #5b21b6;
-  --card-head-bg: #1b4332;
+  --card-head-bg: #2a1a3b;
   --card-head-text: #ffffff;
-  --card-head-text-muted: #bfe3d2;
+  --card-head-text-muted: #cbb8e0;
 }
 
 :root[data-theme="dark"] {
@@ -141,8 +141,8 @@
   --type-badge-text: #b9b3ff;
   --solution-type-bg: #2a3441;
   --solution-type-text: #c3cdd9;
-  --llmops-tag-bg: #163832;
-  --llmops-tag-text: #6cd9c8;
+  --llmops-tag-bg: #4a3a1a;
+  --llmops-tag-text: #f0c96a;
   --risk-bg: #2e1f22;
   --risk-text: #e08a8a;
   --team-tag-bg: #3a2a12;
@@ -153,9 +153,9 @@
   --team-blue-text: #93c5fd;
   --team-purple-bg: #2c1f45;
   --team-purple-text: #c4b5fd;
-  --card-head-bg: #12291e;
+  --card-head-bg: #1f1330;
   --card-head-text: #f4f5f7;
-  --card-head-text-muted: #9cc4b1;
+  --card-head-text-muted: #b39cd0;
 }
 
 * { box-sizing: border-box; }
