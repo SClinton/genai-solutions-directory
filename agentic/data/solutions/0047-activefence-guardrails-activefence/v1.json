@@ -10,12 +10,14 @@
       "Commercial"
     ],
     "llmops_stages": [
-      "Monitor",
-      "Deploy"
+      "Deploy",
+      "Operate",
+      "Monitor"
     ],
     "stage": [
-      "Monitor",
-      "Deploy"
+      "Deploy",
+      "Operate",
+      "Monitor"
     ],
     "top10_2026": [
       "ASI01:26",
@@ -31,18 +33,25 @@
   },
   "coverage": [
     {
+      "group": "Deploy",
+      "items": [
+        "Enforce zero-trust policies between agents, tools, & external APIs, Apply & manage runtime Guardrails, Configure Inter-agent authorization policies, capabilities, & roles"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Detect task replay, infinite delegation, or hallucination loops.",
+        "LLM Incident Detection & Response, Runtime guardrails & moderation; anomalous tool use"
+      ]
+    },
+    {
       "group": "Monitor",
       "items": [
         "Alert on anomalies;  e.g., goal reversal, unexpected plan depth, adversarial-input, excessive tool usage, or rapid inter-agent chatter.",
         "Audit reflection accuracy by comparing stated & observed planning outcomes.",
         "Use immutable logs (e.g.",
         "Sigstore, Immudb) for forensic readiness."
-      ]
-    },
-    {
-      "group": "Deploy",
-      "items": [
-        "Enforce zero-trust policies between agents, tools, & external APIs, Apply & manage runtime Guardrails, Configure Inter-agent authorization policies, capabilities, & roles"
       ]
     }
   ],
