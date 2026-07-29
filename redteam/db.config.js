@@ -3,7 +3,7 @@ window.DB_CONFIG = {
   dbName: "Red Team Solutions",
   manifestPath: "data/manifest.json",
   editBase: "edit.html",
-  coverageLabel: "Red Team Coverage",
+  coverageLabel: "Taxonomy Coverage",
 
   // Sidebar filters on index.html
   facets: [
