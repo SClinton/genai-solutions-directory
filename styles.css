@@ -657,6 +657,13 @@ html.embedded .site-header {
   white-space: nowrap;
 }
 
+.card-title-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .card-type-badge {
   display: flex;
   flex-wrap: wrap;
@@ -698,21 +705,9 @@ html.embedded .site-header {
   white-space: nowrap;
 }
 
-.card-title-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.card-title-text {
-  min-width: 0;
-  flex: 1;
-}
-
 .card-sponsor-badge {
   display: block;
-  height: 54px;
+  height: 32px;
   width: auto;
   flex-shrink: 0;
 }
