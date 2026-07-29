@@ -575,8 +575,8 @@ html.embedded .site-header {
 
 .card-header-stage-row {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
+  align-content: flex-start;
   gap: 5px;
   padding-right: 30px;
 }
@@ -596,15 +596,13 @@ html.embedded .site-header {
   padding-top: 2px;
 }
 
-.card-header-stage {
-  display: flex;
-  min-width: 0;
-}
-
+/* Dissolve these wrappers so the label and every individual pill are
+   flat siblings in .card-header-stage-row's own wrap flow - otherwise
+   the row wraps between the label and the whole pills box as one
+   unit, instead of the first pill sitting right after the label. */
+.card-header-stage,
 .card-header-stage .card-tags {
-  flex-wrap: wrap;
-  gap: 3px;
-  padding: 0;
+  display: contents;
 }
 
 .card-header-stage .tag {

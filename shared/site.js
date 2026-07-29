@@ -332,6 +332,18 @@
     return list.slice().sort((a, b) => dir * a.title.localeCompare(b.title, undefined, { sensitivity: "base" }));
   }
 
+  function equalizeCardHeaderHeights() {
+    const heads = Array.from(cardsEl.querySelectorAll(".card-head"));
+    if (!heads.length) return;
+    heads.forEach((h) => {
+      h.style.height = "";
+    });
+    const max = Math.max(...heads.map((h) => h.getBoundingClientRect().height));
+    heads.forEach((h) => {
+      h.style.height = `${max}px`;
+    });
+  }
+
   function render() {
     const filtered = sortByTitle(state.all.filter((s) => matchesFilters(s) && matchesQuery(s)));
     renderCards(filtered);
@@ -339,7 +351,14 @@
     emptyEl.hidden = filtered.length !== 0;
     renderActiveFilterChips();
     syncFacetInputs();
+    requestAnimationFrame(equalizeCardHeaderHeights);
   }
+
+  let resizeTimer = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(equalizeCardHeaderHeights, 150);
+  });
 
   searchEl.addEventListener("input", (e) => {
     state.query = e.target.value.trim().toLowerCase();
