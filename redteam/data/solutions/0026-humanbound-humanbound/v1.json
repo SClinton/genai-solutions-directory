@@ -20,8 +20,8 @@
       "Purple"
     ],
     "risk_maps": [
-      "OWASP Top 10 Risks and Mitigations for LLM Apps 2025",
-      "OWASP Top 10 Risks and Mitigations for Agentic Apps 2026"
+      "Top 10 for LLM Apps 2025",
+      "Top 10 for Agentic Apps 2026"
     ]
   },
   "coverage": [
