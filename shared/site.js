@@ -4,6 +4,11 @@
   const cfg = window.DB_CONFIG;
   if (!cfg) throw new Error("shared/site.js requires window.DB_CONFIG to be set before it loads");
 
+  const SPONSOR_BADGES = {
+    gold: "../assets/GSRect.png",
+    silver: "../assets/SSRect.png",
+  };
+
   const state = {
     all: [],
     filters: {},
@@ -40,6 +45,7 @@
           ...(current.tags || {}),
           version: meta.current_version,
           versionCount: meta.versions.length,
+          sponsorLevel: meta.sponsor_level || "none",
         };
       })
     );
@@ -253,6 +259,18 @@
       node.querySelector(".card-title").textContent = s.title;
       node.querySelector(".card-company").textContent = s.company;
       node.querySelector(".card-description").textContent = s.description;
+
+      const sponsorEl = node.querySelector(".card-sponsor-badge");
+      if (sponsorEl) {
+        const sponsorImg = SPONSOR_BADGES[s.sponsorLevel];
+        if (sponsorImg) {
+          sponsorEl.src = sponsorImg;
+          sponsorEl.alt = `${s.sponsorLevel[0].toUpperCase()}${s.sponsorLevel.slice(1)} sponsor`;
+          sponsorEl.hidden = false;
+        } else {
+          sponsorEl.remove();
+        }
+      }
 
       const editBtn = node.querySelector(".card-edit-btn");
       editBtn.href = `${cfg.editBase}?slug=${encodeURIComponent(s.slug)}`;

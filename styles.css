@@ -698,6 +698,13 @@ html.embedded .site-header {
   white-space: nowrap;
 }
 
+.card-sponsor-badge {
+  display: block;
+  height: 28px;
+  width: auto;
+  margin-top: 6px;
+}
+
 .card-description {
   margin: 0;
   padding: 0 14px;
