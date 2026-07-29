@@ -5,9 +5,9 @@
   // changes needed for it to appear as a tab. Used by both index.html (full
   // page) and embed.html (header-less, for embedding elsewhere e.g. WordPress).
   const DATABASES = [
+    { key: "genai", label: "GenAI", path: "genai/index.html" },
     { key: "agentic", label: "Agentic", path: "agentic/index.html" },
     { key: "redteam", label: "Red Teaming", path: "redteam/index.html" },
-    { key: "genai", label: "GenAI", path: "genai/index.html" },
   ];
 
   const tabsEl = document.getElementById("db-tabs");
