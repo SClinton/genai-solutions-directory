@@ -698,11 +698,23 @@ html.embedded .site-header {
   white-space: nowrap;
 }
 
+.card-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card-title-text {
+  min-width: 0;
+  flex: 1;
+}
+
 .card-sponsor-badge {
   display: block;
   height: 54px;
   width: auto;
-  margin-top: 6px;
+  flex-shrink: 0;
 }
 
 .card-description {

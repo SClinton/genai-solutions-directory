@@ -10,13 +10,19 @@
       "Commercial"
     ],
     "llmops_stages": [
+      "Scoping/Planning",
+      "Development & Experimentation",
       "Test & Evaluation",
+      "Deploy",
       "Operate",
       "Monitor",
       "Govern"
     ],
     "stage": [
+      "Scoping/Planning",
+      "Development & Experimentation",
       "Test & Evaluation",
+      "Deploy",
       "Operate",
       "Monitor",
       "Govern"
@@ -35,12 +41,31 @@
   },
   "coverage": [
     {
+      "group": "Scoping/Planning",
+      "items": [
+        "Conducting Agentic Threat Modeling, Draft policy for Agent privilege boundaries, Draft policy Agent for tool scopes, Draft policy for delegation logic"
+      ]
+    },
+    {
+      "group": "Development & Experimentation",
+      "items": [
+        "Implement policy enforcement hooks in Frameworks (e.g.",
+        "LangGraph, CrewAI, Others)"
+      ]
+    },
+    {
       "group": "Test & Evaluation",
       "items": [
         "Available Agent Scanning, Agent Penetration Testing, Adversarial red-teaming: goal drift, prompt injection, hallucination chaining, & over-permissioned tool usage.",
         "Multi-agent scenario simulations for collusion, misalignment, or deception detection.",
         "Validate agent decisions against expected goal plans.",
         "Sandboxed testing of all tool calls, code execution, cloud API triggers"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Enforce zero-trust policies between agents, tools, & external APIs, Apply & manage runtime Guardrails"
       ]
     },
     {
