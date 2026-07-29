@@ -1,0 +1,50 @@
+{
+  "id": 111,
+  "slug": "akamai-firewall-for-ai-akamai",
+  "title": "Akamai Firewall for AI",
+  "company": "Akamai",
+  "description": "Firewall for AI secures applications that use LLMs by detecting prompt injections, data exfiltration, and toxic content in real-time. This solution enforces policy-based security with inbound filtering and outbound sanitization to mitigate adversarial LLM exploits.",
+  "link": "https://www.akamai.com/products/firewall-for-ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate",
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Security Alerting",
+        "Security Metrics Collection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "coross@akamai.com"
+}

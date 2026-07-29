@@ -1,0 +1,40 @@
+{
+  "id": 57,
+  "slug": "microsoft-defender-for-cloud-ai-spm-microsoft",
+  "title": "Microsoft Defender for Cloud AI-SPM",
+  "company": "Microsoft",
+  "description": "Defender for Cloud AI-SPM identifies vulnerabilities and misconfigurations in generative AI apps on Azure OpenAI, Azure Machine Learning, and Amazon Bedrock, providing actionable recommendations and integrated Defender CSPM to strengthen security and reduce risk.",
+  "link": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-security-posture",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [
+      "LLM04:23",
+      "LLM08:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning",
+        "Compliance and Regulatory Assessment",
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data",
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)",
+        "Threat Modeling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "idhen@microsoft.com"
+}

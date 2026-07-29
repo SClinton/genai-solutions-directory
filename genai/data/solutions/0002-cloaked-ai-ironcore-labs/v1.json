@@ -1,0 +1,32 @@
+{
+  "id": 2,
+  "slug": "cloaked-ai-ironcore-labs",
+  "title": "Cloaked AI",
+  "company": "IronCore Labs",
+  "description": "Encrypts embeddings stored in vector DBs while still allowing kNN/ANN searches",
+  "link": "https://ironcorelabs.com/products/cloaked-ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Data Augmentation and Fine-Tuning"
+    ],
+    "top10_2023": [
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Secure Data Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "bob.wall@ironcorelabs.com"
+}

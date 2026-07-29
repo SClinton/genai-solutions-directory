@@ -1,0 +1,36 @@
+{
+  "id": 101,
+  "slug": "lumia-for-employees-lumia-security",
+  "title": "Lumia for Employees",
+  "company": "Lumia Security",
+  "description": "Lumia SecurityÕs AI Security and Governance platform helps organizations adopt AI safely, offering visibility, control, and risk mitigation across thousands of applications without disrupting productivity or creating a negative user experience.",
+  "link": "https://lumia.security",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM02:25",
+      "LLM06:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "bobi@lumia.security"
+}

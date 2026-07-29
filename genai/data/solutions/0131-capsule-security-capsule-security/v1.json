@@ -1,0 +1,66 @@
+{
+  "id": 131,
+  "slug": "capsule-security-capsule-security",
+  "title": "Capsule Security",
+  "company": "Capsule Security",
+  "description": "Runtime security platform that discovers AI agents, monitors their behavior, enforces governance policies to block unsafe actions before execution, and identifies vulnerabilities through automated red-team assessments.",
+  "link": "https://www.capsulesecurity.io/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Govern",
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM04:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "bar@capsule.security"
+}

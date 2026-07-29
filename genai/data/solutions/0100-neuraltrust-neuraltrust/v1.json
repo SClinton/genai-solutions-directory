@@ -1,0 +1,46 @@
+{
+  "id": 100,
+  "slug": "neuraltrust-neuraltrust",
+  "title": "NeuralTrust",
+  "company": "NeuralTrust",
+  "description": "Ensure your LLM applications stay safe, compliant, and performant in production with The First Generative Application Firewall (GAF).",
+  "link": "https://neuraltrust.ai/generative-application-firewall",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rodrigo.fernandez@neuraltrust.ai"
+}

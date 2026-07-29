@@ -1,0 +1,44 @@
+{
+  "id": 47,
+  "slug": "cranium-platform-and-ai-trust-hub-cranium",
+  "title": "Cranium Platform and AI Trust Hub",
+  "company": "Cranium",
+  "description": "Whether organizations are builders and/or consumers of AI, Cranium offers a comprehensive platform that enables complete security, compliance, and trust across the entire AI supply chain.",
+  "link": "https://cranium.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jharguess@cranium.ai"
+}

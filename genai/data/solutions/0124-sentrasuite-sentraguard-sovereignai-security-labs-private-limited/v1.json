@@ -1,0 +1,40 @@
+{
+  "id": 124,
+  "slug": "sentrasuite-sentraguard-sovereignai-security-labs-private-limited",
+  "title": "SentraSuite - SentraGuard",
+  "company": "SovereignAI Security Labs Private Limited",
+  "description": "SentraGuard enforces runtime controls across major GenAI platforms through a browser extension  and APIs that detects sensitive-data exposure, prompt-injection and jailbreak attempts, and policy violations, then applies pass-warn-block actions with SIEM-ready telemetry and audit evidence.",
+  "link": "https://www.sovereignaisecurity.com/products/sentraguard",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM06:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "manoj@sovereignaisecurity.com"
+}

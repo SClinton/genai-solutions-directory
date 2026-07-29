@@ -1,0 +1,64 @@
+{
+  "id": 37,
+  "slug": "trojai-defend-trojai",
+  "title": "TrojAI Defend",
+  "company": "TrojAI",
+  "description": "TrojAI Defend protects AI models from evolving threats at runtime, including prompt injection, jailbreaking, DoS attacks, data leakage and loss, and toxic or offensive content.",
+  "link": "https://troj.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy",
+      "Operate",
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "LLM Enabled Web Application Firewall",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "christian.falco@troj.ai"
+}

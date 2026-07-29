@@ -1,0 +1,46 @@
+{
+  "id": 51,
+  "slug": "aim-supervisor-aim-intelligence",
+  "title": "AIM Supervisor",
+  "company": "AIM Intelligence",
+  "description": "AIM Supervisor integrates AIM RED for automated AI vulnerability testing, AIM GUARD for real-time threat detection and mitigation, and AIM Benchmark for comprehensive safety evaluations, ensuring continuous, adaptive protection against evolving AI security threats.",
+  "link": "https://suho.aim-intelligence.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "haon@aim-intelligence.com"
+}

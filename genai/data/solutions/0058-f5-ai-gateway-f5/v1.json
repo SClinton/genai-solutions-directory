@@ -1,0 +1,38 @@
+{
+  "id": 58,
+  "slug": "f5-ai-gateway-f5",
+  "title": "F5 AI Gateway",
+  "company": "F5",
+  "description": "F5 AI Gateway is an advanced security solution that protects, accelerates, and observes AI-powered applications.",
+  "link": "https://www.f5.com/products/ai-gateway",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "l.alathieyre@f5.com"
+}

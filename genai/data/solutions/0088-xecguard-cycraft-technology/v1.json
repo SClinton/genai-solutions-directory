@@ -1,0 +1,66 @@
+{
+  "id": 88,
+  "slug": "xecguard-cycraft-technology",
+  "title": "XecGuard",
+  "company": "CyCraft Technology",
+  "description": "XecGuard is a robust Guardrail API engineered to secure Large Language Models and AI Agents. XecGuard provide multi-layered defense, including Prompt Injection Protection, Prompt Extraction Protection, System Prompt Enforcement, Harmful Content Protection, and Malicious Skills Protection.Designed for complex agentic AI scenarios, XecGuard allows enterprises to customize security policies, preventing unauthorized manipulation and ensuring your AI remains safe, compliant, and on-task.",
+  "link": "https://www.cycraft.com/en/xecguard",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM07:23",
+      "LLM10:23"
+    ],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM05:25",
+      "LLM07:25",
+      "LLM09:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM06:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing",
+        "Application Security Orchestration and Correlation",
+        "Final Security Audit"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "vinci.tu@cycraft.com"
+}

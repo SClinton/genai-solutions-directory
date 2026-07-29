@@ -1,0 +1,38 @@
+{
+  "id": 120,
+  "slug": "sentrasuite-sentrascan-sovereign-aisecurity-labs",
+  "title": "SentraSuite - SentraScan",
+  "company": "Sovereign AISecurity Labs",
+  "description": "SentraScan performs policy-driven static scanning of MCP configurations, model artifacts, Skills, Agentic AI, and RAG applications to detect supply-chain and prompt-injection risks before deployment, producing CI gate decisions, SBOM evidence, drift reports, and audit-ready security outputs.",
+  "link": "https://www.sovereignaisecurity.com/products/sentrascan",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM03:25",
+      "LLM06:25",
+      "LLM08:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "SAST/DAST/ IAST",
+        "Secure Library/Code  Repository",
+        "Software Composition Analysis"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "manoj@sovereignaisecurity.com"
+}

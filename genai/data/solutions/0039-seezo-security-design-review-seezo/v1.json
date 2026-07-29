@@ -1,0 +1,34 @@
+{
+  "id": 39,
+  "slug": "seezo-security-design-review-seezo",
+  "title": "Seezo Security Design Review",
+  "company": "Seezo",
+  "description": "Seezo leverages LLMs to provide context-specific security requirements to developers before they start coding",
+  "link": "https://seezo.io",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM07:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Threat Modeling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "sandesh@seezo.io"
+}

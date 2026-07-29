@@ -1,0 +1,43 @@
+{
+  "id": 110,
+  "slug": "radware-llm-firewall-radware",
+  "title": "Radware LLM Firewall",
+  "company": "Radware",
+  "description": "RadwareÕs LLM Firewall provides real-time, model_agnostic prompt_level inspection to block prompt injection, data exfiltration, and other LLM_specific risks, enforcing policy and preventing sensitive data exposure before prompts reach underlying models.",
+  "link": "https://www.radware.com/products/llm-firewall/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM05:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "ronm@radware.com"
+}

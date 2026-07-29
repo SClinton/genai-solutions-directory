@@ -1,0 +1,35 @@
+{
+  "id": 53,
+  "slug": "dyana-dreadnode",
+  "title": "dyana",
+  "company": "Dreadnode",
+  "description": "Dyana is a sandbox environment using Docker and Tracee for loading, running and profiling a wide range of files, including machine learning models, ELF executables, Pickle serialized files, Javascripts and more. It provides detailed insights into GPU memory usage, filesystem interactions, network requests, and security related events.",
+  "link": "https://github.com/dreadnode/dyana",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM03:23",
+      "LLM04:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Automated Vulnerability Scanning",
+        "LLM Incident Detection and Response",
+        "Runtime Application Self-Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "ads@dreadnode.io"
+}

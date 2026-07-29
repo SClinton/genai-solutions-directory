@@ -1,0 +1,62 @@
+{
+  "id": 70,
+  "slug": "aiandme-aiandme",
+  "title": "AIandMe",
+  "company": "AIandMe",
+  "description": "AIandMe provides an end-to-end platform for testing, securing, and monitoring LLM-based AI systemsÑcombining automated adversarial testing, real-time protection, and human-in-the-loop audits to ensure reliable, compliant, and safe AI deployments.",
+  "link": "https://aiandme.io/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation",
+      "Test and Evaluation",
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM07:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Patch and Update Alerts",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "User Activity Monitoring",
+        "Observability",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "kostas@aiandme.io"
+}

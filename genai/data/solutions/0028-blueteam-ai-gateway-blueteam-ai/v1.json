@@ -1,0 +1,83 @@
+{
+  "id": 28,
+  "slug": "blueteam-ai-gateway-blueteam-ai",
+  "title": "Blueteam AI Gateway",
+  "company": "Blueteam AI",
+  "description": "Blueteam AI Gateway is a network-layer appliance that intercepts traffic to AI models and discovers AI use, safeguards data from leaking, and governs safe and responsible AI use through real-time policy enforcement.",
+  "link": "https://blueteam.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor",
+      "Govern",
+      "Scoping/Planning",
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM09:23",
+      "LLM05:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Patch and Update Alerts",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "User/Machine Access audits"
+      ]
+    },
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning",
+        "Compliance and Regulatory Assessment",
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data",
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Deployment Validation",
+        "Encryption",
+        "Secrets management",
+        "LLM Enabled Web Application Firewall",
+        "Secrets Management",
+        "Secure API Access",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "feynman@blueteam.ai"
+}

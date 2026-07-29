@@ -1,0 +1,36 @@
+{
+  "id": 92,
+  "slug": "oso-oso",
+  "title": "Oso",
+  "company": "Oso",
+  "description": "Oso helps developers build access controls into their applications. We ensure users and enterprise AI agents only see data within the scope of their determined permissions to avoid sensitive data leaks.",
+  "link": "https://osohq.com",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM02:23",
+      "LLM06:23",
+      "LLM08:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "chris@osohq.com"
+}

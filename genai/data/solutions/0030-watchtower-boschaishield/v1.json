@@ -1,0 +1,37 @@
+{
+  "id": 30,
+  "slug": "watchtower-boschaishield",
+  "title": "Watchtower",
+  "company": "BoschAIShield",
+  "description": "AIShield Watchtower automates model and notebook discovery, performing thorough vulnerability scans to identify risks like hard-coded secrets, PII exposure, outdated libraries, serialization attacks, and unsafe custom operations.",
+  "link": "https://github.com/bosch-aisecurity-aishield/watchtower",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM03:23",
+      "LLM05:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Penetration Testing",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amit.phadke@bosch.com"
+}

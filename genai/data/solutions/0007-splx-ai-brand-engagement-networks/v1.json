@@ -1,0 +1,47 @@
+{
+  "id": 7,
+  "slug": "splx-ai-brand-engagement-networks",
+  "title": "SPLX.ai",
+  "company": "Brand Engagement Networks",
+  "description": "Red Teaming / Security Testing in the AI CI/CD. The SPLX.ai platform provides continuous testing, guard rail assessments, domain specific test scenarios, AI Inventory which then can be mapped to security or compliance frameworks such as OWASP Top Ten for LLM Applications, MITRE Atlas, NIST AI Risk Management Framework, BSI Guidelines, EU AI Act etc.",
+  "link": "https://splx.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Metrics Collection",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "End User",
+  "submitter_email": "sandy.dunn@owasp.org"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 23,
+  "slug": "layer-protect-ai",
+  "title": "Layer",
+  "company": "Protect AI",
+  "description": "Enable detection and response across all enterprise LLM applications.",
+  "link": "https://protectai.com/layer",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "neal@protectai.com"
+}

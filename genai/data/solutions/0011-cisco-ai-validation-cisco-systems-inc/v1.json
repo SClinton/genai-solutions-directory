@@ -1,0 +1,76 @@
+{
+  "id": 11,
+  "slug": "cisco-ai-validation-cisco-systems-inc",
+  "title": "Cisco AI Validation",
+  "company": "Cisco Systems, Inc.",
+  "description": "Cisco AI Validation assesses AI applications and models for security and safety vulnerabilities. We automatically analyze a modelÕs risk across hundreds of attack techniques and threat categories so you can defend against them.",
+  "link": "https://www.robustintelligence.com/platform/ai-validation",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Development and Experimentation",
+      "Monitor",
+      "Govern",
+      "Release"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Risk Assessment and Management"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "Model Security Posture Evaluation",
+        "Secure Supply Chain Verification"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jerhui@cisco.com"
+}

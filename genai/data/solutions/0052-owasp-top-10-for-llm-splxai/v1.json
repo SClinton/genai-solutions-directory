@@ -1,0 +1,50 @@
+{
+  "id": 52,
+  "slug": "owasp-top-10-for-llm-splxai",
+  "title": "OWASP Top 10 for LLM",
+  "company": "SplxAI",
+  "description": "Hi there, we have been features wrongly under Monitoring but we are AI Red Teaming. Thanks, Kris from SplxAI",
+  "link": "https://genai.owasp.org/resource/llm-and-generative-ai-security-solutions-landscape-q12025/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Application Security Orchestration and Correlation",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "kris@splx.ai"
+}

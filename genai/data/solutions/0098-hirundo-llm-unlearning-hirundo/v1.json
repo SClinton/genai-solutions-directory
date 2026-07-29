@@ -1,0 +1,36 @@
+{
+  "id": 98,
+  "slug": "hirundo-llm-unlearning-hirundo",
+  "title": "Hirundo LLM Unlearning",
+  "company": "Hirundo",
+  "description": "Hirundo is the first Machine Unlearning platform, addressing AI issues at their core. It makes AI forget, removing unwanted data and behaviors from LLMs to reduce bias, hallucinations, and security risks.",
+  "link": "https://www.hirundo.io/dataset-optimization",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "LLM Benchmarking"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "yael@hirundo.io"
+}

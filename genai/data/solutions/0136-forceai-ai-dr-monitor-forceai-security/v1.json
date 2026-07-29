@@ -1,0 +1,41 @@
+{
+  "id": 136,
+  "slug": "forceai-ai-dr-monitor-forceai-security",
+  "title": "ForceAI - AI DR/Monitor",
+  "company": "ForceAI Security",
+  "description": "ForceAI Monitor (AI DR) helps enterprises see, monitor, and govern AI activity across users, agents, MCP servers, APIs, IDEs, desktop apps, and data platforms",
+  "link": "https://forceaisecurity.com/ai-dr",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "palbhawna86@gmail.com"
+}

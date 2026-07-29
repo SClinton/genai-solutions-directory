@@ -1,0 +1,37 @@
+{
+  "id": 75,
+  "slug": "pomerium-pomerium",
+  "title": "Pomerium",
+  "company": "Pomerium",
+  "description": "Pomerium adds per request authentication and authorization with verbose logging for AI Agents and LLMs accessing MCP Servers.",
+  "link": "https://pomerium.com",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM06:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nbalaraman@pomerium.com"
+}

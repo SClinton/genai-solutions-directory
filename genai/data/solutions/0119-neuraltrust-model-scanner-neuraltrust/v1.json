@@ -1,0 +1,59 @@
+{
+  "id": 119,
+  "slug": "neuraltrust-model-scanner-neuraltrust",
+  "title": "NeuralTrust Model Scanner",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Model Scanner analyzes and verifies AI models by generating SBOMs for models, agents, and tools, while ensuring integrity through signed model weights, plugin manifests, and memory to support secure and trustworthy deployments.",
+  "link": "https://neuraltrust.ai/model-scanner",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Data Augmentation and Fine-Tuning",
+      "Release"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Model Integrity Validation (ex: serialization scanning for malware)"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "AI/ML Bill of Materials (BOM)",
+        "Digital Model Signing",
+        "Secure Supply Chain Verification"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

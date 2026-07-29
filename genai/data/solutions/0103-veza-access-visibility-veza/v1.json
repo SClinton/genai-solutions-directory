@@ -1,0 +1,35 @@
+{
+  "id": 103,
+  "slug": "veza-access-visibility-veza",
+  "title": "Veza Access Visibility",
+  "company": "Veza",
+  "description": "Visualizes effective permissions (create, read, write, delete) across the entire AI environment. Veza reveals exactly which human, machine and AI agent identities can access models and training data, enabling precise access planning and least privilege enforcement before deployment.",
+  "link": "https://veza.com/product/access-visibility/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM03:25",
+      "LLM06:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nvaideeswaran@veza.com"
+}

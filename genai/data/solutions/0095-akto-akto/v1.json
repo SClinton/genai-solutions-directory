@@ -1,0 +1,41 @@
+{
+  "id": 95,
+  "slug": "akto-akto",
+  "title": "Akto",
+  "company": "Akto",
+  "description": "Akto is an AI agent and MCP Security Solution for Discovery, Red teaming and runtime protection of your agentic Assets ( Agents, MCPs, LLMs). For employees and for homegrown apps.",
+  "link": "https://www.akto.io",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "AI/LLM Secure Posture Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "ankita@akto.io"
+}

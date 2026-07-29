@@ -1,0 +1,42 @@
+{
+  "id": 105,
+  "slug": "veza-access-reviews-veza",
+  "title": "Veza Access Reviews",
+  "company": "Veza",
+  "description": "Establishes continuous governance over the AI ecosystem. Automates recertification campaigns for human and machine identities, validating access against security policies to maintain compliance and aggressively reduce the attack surface of AI applications.",
+  "link": "https://veza.com/product/access-reviews/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy",
+      "Govern"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM03:25",
+      "LLM06:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nvaideeswaran@veza.com"
+}

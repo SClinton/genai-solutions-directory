@@ -1,0 +1,45 @@
+{
+  "id": 82,
+  "slug": "verigen-red-team-verigenai",
+  "title": "VeriGen Red Team",
+  "company": "VeriGenAI",
+  "description": "Automated Red Team security scanning and governance for Generative AI applicationsÑrapidly detecting vulnerabilities, enabling continuous compliance with OWASP standards, and accelerating safe deployment across multi-cloud and private environments.",
+  "link": "https://verigen.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Application Security Orchestration and Correlation",
+        "Final Security Audit",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "carlos@verigen.ai"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 68,
+  "slug": "lasso-for-applications-lasso",
+  "title": "Lasso for Applications",
+  "company": "Lasso",
+  "description": "Lasso for Applications provides continuous protection and comprehensive control for all GenAI applications, agents, and models used or developed by your organization. With advanced monitoring and adaptive security measures, Lasso ensures that every interaction with your GenAI assets is safeguarded, empowering your teams to innovate confidently while maintaining robust security and compliance.",
+  "link": "https://www.lasso.security/solutions/lasso-for-applications",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "LLM Enabled Web Application Firewall",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "orlyb@lasso.security"
+}

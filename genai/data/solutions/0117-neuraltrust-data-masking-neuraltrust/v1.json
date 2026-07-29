@@ -1,0 +1,42 @@
+{
+  "id": 117,
+  "slug": "neuraltrust-data-masking-neuraltrust",
+  "title": "NeuralTrust Data Masking",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Data Masking enables early identification and protection of sensitive data in LLM workflows, applying privacy-preserving techniques such as masking and anonymization to prevent exposure and ensure secure data handling.",
+  "link": "https://neuraltrust.ai/data-masking",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

@@ -1,0 +1,71 @@
+{
+  "id": 129,
+  "slug": "ai-utm-nsfocus",
+  "title": "AI-UTM",
+  "company": "NSFOCUS",
+  "description": "AI-UTM is an all-in-one platform security protection product for large models and agent applications.",
+  "link": "https://www.nsfocus.com.cn/html/2026/651_0202/283.html",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy",
+      "Operate",
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "LLM Enabled Web Application Firewall",
+        "Network Security Validation",
+        "Secrets Management",
+        "Secure API Access",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "AI/LLM Secure Posture Management",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "Observability"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "pengxiaojun@nsfocus.com"
+}

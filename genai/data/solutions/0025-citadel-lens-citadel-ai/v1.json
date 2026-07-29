@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "slug": "citadel-lens-citadel-ai",
+  "title": "Citadel Lens",
+  "company": "Citadel AI",
+  "description": "Evaluate and monitor your LLM, vision, and tabular AI systems. Additionally, the firewall extension precisely filters LLM input and output based on domain-specific rules. \n\nFrom out-of-the-box jailbreak testing for generative AI to ISO-compliant reports for predictive AI, Citadel AI provides a unified platform to measure, document, and manage AI risk.",
+  "link": "https://citadel-ai.com/products/lens/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "LLM Benchmarking"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "kenny@citadel-ai.com"
+}

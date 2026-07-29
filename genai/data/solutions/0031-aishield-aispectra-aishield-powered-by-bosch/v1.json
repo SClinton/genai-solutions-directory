@@ -1,0 +1,40 @@
+{
+  "id": 31,
+  "slug": "aishield-aispectra-aishield-powered-by-bosch",
+  "title": "AIShield AISpectra",
+  "company": "AIShield,Powered by Bosch",
+  "description": "AIShield AISpectra enables automated red teaming for GenAI and ML, securing the AI/ML supply chain with threat modeling, vulnerability assessments, compliance reporting, and alignment with standards like OWASP and MITRE.",
+  "link": "https://boschaishield.com/product/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM03:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amit.phadke@bosch.com"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 43,
+  "slug": "aifort-kela",
+  "title": "AiFort",
+  "company": "KELA",
+  "description": "AiFort by KELA provides comprehensive security, governance, and continuous monitoring of GenAI applications. The platform ensures AI systems comply with global regulations and business standards.",
+  "link": "https://www.kelacyber.com/platform/aifort/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "yaelk@ke-la.com"
+}

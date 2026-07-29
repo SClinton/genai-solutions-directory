@@ -1,0 +1,34 @@
+{
+  "id": 91,
+  "slug": "secureaiflow-secureaiflow",
+  "title": "SecureAIFlow",
+  "company": "SecureAIFlow",
+  "description": "SecureAIFlow acts as an AI gateway, deployable on-prem or as SaaS, providing a governance layer for AI workflows, enforcing security policies, preventing sensitive information disclosure (LLM-002), and ensuring safe, compliant use of large language models.",
+  "link": "https://secureaiflow.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM02:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "team@secureaiflow-team.com"
+}

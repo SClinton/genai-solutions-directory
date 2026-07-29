@@ -1,0 +1,50 @@
+{
+  "id": 135,
+  "slug": "forceai-security-agentic-ai-platform-for-security-forceai-security",
+  "title": "ForceAI Security - Agentic AI Platform for Security",
+  "company": "ForceAI Security",
+  "description": "Operationalize Agentic AI in your SOC with a security-first control plane. Build, orchestrate, and govern AI systems that don't just chatÑthey execute with bounded authority.",
+  "link": "https://forceaisecurity.com/ai-for-security",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "Data Integrity and Encryption",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "palbhawna86@gmail.com"
+}

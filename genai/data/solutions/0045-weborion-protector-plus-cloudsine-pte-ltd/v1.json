@@ -1,0 +1,43 @@
+{
+  "id": 45,
+  "slug": "weborion-protector-plus-cloudsine-pte-ltd",
+  "title": "WebOrion¨ Protector Plus",
+  "company": "Cloudsine Pte Ltd",
+  "description": "WebOrion¨ Protector Plus is a GenAI firewall, built to protect GenAI applications against cyber threats. Its ShieldPromptª add-on offers an advanced level of protection, including canary checks, retokenization, contextualized guardrails and vector database checks.",
+  "link": "https://www.cloudsine.tech/products/weborion-protector-plus/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "grace@cloudsine.tech"
+}

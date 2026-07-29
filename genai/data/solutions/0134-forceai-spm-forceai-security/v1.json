@@ -1,0 +1,40 @@
+{
+  "id": 134,
+  "slug": "forceai-spm-forceai-security",
+  "title": "ForceAI SPM",
+  "company": "ForceAI Security",
+  "description": "AI-SPM secures AI systems through design-time hardening and run-time enforcement, continuously monitoring models, data, prompts, and infrastructure to reduce risk, strengthen governance, and maintain trustworthy AI operations.",
+  "link": "https://forceaisecurity.com/ai-spm",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM06:25",
+      "LLM08:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "palbhawna86@gmail.com"
+}

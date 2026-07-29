@@ -1,0 +1,54 @@
+{
+  "id": 36,
+  "slug": "trojai-detect-trojai",
+  "title": "TrojAI Detect",
+  "company": "TrojAI",
+  "description": "TrojAI Detect secures AI behavior at build time. The AI security platform continuously red teams AI models to find security weaknesses in AI, ML, and GenAI models during model development before they can be exploited.",
+  "link": "https://troj.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation",
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "SAST/DAST/ IAST"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "SAST/DAST/IAST"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "christian.falco@troj.ai"
+}

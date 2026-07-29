@@ -1,0 +1,69 @@
+{
+  "id": 141,
+  "slug": "silverfort-ai-agent-security-silverfort",
+  "title": "Silverfort AI Agent Security",
+  "company": "Silverfort",
+  "description": "Uniform identity governance for LLM application identities using the same conditional access and access-review controls applied to human identities, enforcing separation of privileges across human, machine, and agent identity classes.",
+  "link": "https://www.silverfort.com/platform/ai-agent-security/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Deploy",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM02:25",
+      "LLM06:25",
+      "LLM09:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning",
+        "Early Identification of Sensitive Data"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Secure API Access"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Runtime Application Self-Protection"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "moran.bar@silverfort.com"
+}

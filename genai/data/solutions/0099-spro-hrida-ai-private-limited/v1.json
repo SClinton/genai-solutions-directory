@@ -1,0 +1,44 @@
+{
+  "id": 99,
+  "slug": "spro-hrida-ai-private-limited",
+  "title": "Spro",
+  "company": "Hrida AI Private Limited",
+  "description": "Spro acts as a contextual security layer between users and large language model providers, detecting and mitigating prompt injection, sensitive data exposure, jailbreaks, and unsafe outputs to ensure secure and compliant AI interactions.",
+  "link": "https://spro.hridaai.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "hrida.aiofficial@gmail.com"
+}

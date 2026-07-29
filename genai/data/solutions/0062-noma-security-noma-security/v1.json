@@ -1,0 +1,113 @@
+{
+  "id": 62,
+  "slug": "noma-security-noma-security",
+  "title": "Noma Security",
+  "company": "Noma Security",
+  "description": "Noma Security is a comprehensive application security solution for the Data and AI lifecycle. It offers:\n\n1. End-to-End Visibility: Scanning notebooks, source code, and other assets to inventory AI/ML resources.\n2. AI Security Posture Management: Identifying and prioritizing AI/ML risks, including misconfigurations and vulnerable models.\n3. Runtime Protection: Safeguarding AI systems with an AI Firewall against adversarial prompts.\n4. Pre-Runtime Protection: Enhancing security through dynamic red-teaming and static analysis of models and code.\n5. Governance and Compliance: Ensuring adherence to regulatory and security standards.",
+  "link": "https://noma.security/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation",
+      "Scoping/Planning",
+      "Test and Evaluation",
+      "Release",
+      "Deploy",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "SAST/DAST/ IAST",
+        "Secure Coding Practices",
+        "Secure Library/Code  Repository",
+        "Software Composition Analysis"
+      ]
+    },
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Compliance and Regulatory Assessment",
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "AI/ML Bill of Materials (BOM)",
+        "Model Security Posture Evaluation",
+        "Secure CI/CD pipeline",
+        "Secure Supply Chain Verification",
+        "Static and Dynamic Code Analysis"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "LLM Enabled Web Application Firewall"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "LLM Guardrails",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "AI/LLM Secure Posture Management",
+        "Data Privacy and Protection"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "gal@noma.security"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 12,
+  "slug": "cisco-ai-runtime-cisco-systems-inc",
+  "title": "Cisco AI Runtime",
+  "company": "Cisco Systems, Inc.",
+  "description": "Cisco AI Runtime secures GenAI apps to address threats like prompt injections, sensitive data loss, and compliance concerns. Deploy guardrails around safety, privacy, relevancy, and security to govern your AI operations.",
+  "link": "https://www.robustintelligence.com/platform/ai-firewall-guardrails",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "LLM Enabled Web Application Firewall",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jerhui@cisco.com"
+}

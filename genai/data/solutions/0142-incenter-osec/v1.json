@@ -1,0 +1,44 @@
+{
+  "id": 142,
+  "slug": "incenter-osec",
+  "title": "Incenter",
+  "company": "Osec",
+  "description": "Continuous red teaming of AI solutions. Providing vulnerability identification, verification and analysis within the context of the hosting organization.",
+  "link": "https://www.osec.com/incenter",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Final Security Audit",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "Mark.Stamford@osec.com"
+}

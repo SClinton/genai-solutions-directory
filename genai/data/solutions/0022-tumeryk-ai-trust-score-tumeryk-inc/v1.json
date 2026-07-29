@@ -1,0 +1,41 @@
+{
+  "id": 22,
+  "slug": "tumeryk-ai-trust-score-tumeryk-inc",
+  "title": "Tumeryk, AI Trust Score",
+  "company": "Tumeryk, Inc.",
+  "description": "Just as non-deterministic risks in credit and fraud are measured with the FICO(R) Score, the Tumeryk AI Trust Score (R) evaluates and scores the trustworthiness of the generated prompt responses. Using a proprietary algorithm, the AI Trust Score accounts for model and real time prompt response risks including bias, jailbreak propensity, off-topic responses, toxicity, privacy, data leakage, intellectual property and hallucinations.\n\nThis score can be integrated into business processes to help determine whether the content should be accepted, flagged, or blocked, thus allowing organizations to mitigate risks associated with AI-generated content. Gen AI chatbots, assistants, and agents get instant visibility, security, and compliance",
+  "link": "http://www.tumeryk.com/ai-trust-score",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rohit@tumeryk.com"
+}

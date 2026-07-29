@@ -1,0 +1,46 @@
+{
+  "id": 61,
+  "slug": "microsoft-security-secure-and-govern-ai-microsoft",
+  "title": "Microsoft Security - Secure and Govern AI",
+  "company": "Microsoft",
+  "description": "Microsoft Security provides capabilities to discover, protect, and govern AI applications. Data Security, AI Security Posture Management, AI Threat Protection, AI governance and more.",
+  "link": "https://www.microsoft.com/en-us/security/business/solutions/security-for-ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "Data Integrity and Encryption",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "netahw@microsoft.com"
+}

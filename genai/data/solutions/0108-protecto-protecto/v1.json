@@ -1,0 +1,48 @@
+{
+  "id": 108,
+  "slug": "protecto-protecto",
+  "title": "Protecto",
+  "company": "Protecto",
+  "description": "Provides context-aware controls for LLM workflows by detecting sensitive data in unstructured inputs, applying policy-driven tokenization, and enforcing user-specific access decisions to prevent unauthorized disclosure and mitigate OWASP LLM Top 10 risks without impacting model accuracy.",
+  "link": "https://www.protecto.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern",
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM08:25",
+      "LLM09:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "User/Machine Access audits"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amar@protecto.ai"
+}

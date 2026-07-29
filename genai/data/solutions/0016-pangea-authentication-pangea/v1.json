@@ -1,0 +1,37 @@
+{
+  "id": 16,
+  "slug": "pangea-authentication-pangea",
+  "title": "Pangea Authentication",
+  "company": "Pangea",
+  "description": "Secure authentication, with support for adaptive threat intelligence, built specifically to protect access to your AI application, protect your users, and your organization.",
+  "link": "https://pangea.cloud/services/authn/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM04:23",
+      "LLM07:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)",
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rob@pangea.cloud"
+}

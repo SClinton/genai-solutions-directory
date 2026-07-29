@@ -1,0 +1,48 @@
+{
+  "id": 10,
+  "slug": "enkrypt-ai-enkrypt-ai",
+  "title": "Enkrypt AI",
+  "company": "Enkrypt AI",
+  "description": "Enkrypt AI secures enterprises against generative AI risks with its comprehensive security platform that detects threats, removes vulnerabilities, and monitors the latest insights on security, compliance and AI performance.",
+  "link": "https://www.enkryptai.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "erin@enkryptai.com"
+}

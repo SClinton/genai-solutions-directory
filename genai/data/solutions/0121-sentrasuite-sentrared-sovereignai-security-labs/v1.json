@@ -1,0 +1,41 @@
+{
+  "id": 121,
+  "slug": "sentrasuite-sentrared-sovereignai-security-labs",
+  "title": "SentraSuite - SentraRed",
+  "company": "SovereignAI Security Labs",
+  "description": "SentraRed runs adversarial testing for LLMs, RAG workflows, and agentic applications using automated attack libraries and human validation, generating reproducible findings, attack-success metrics, and remediation guidance mapped to OWASP and MITRE ATLAS.",
+  "link": "https://www.sovereignaisecurity.com/products/sentrared",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM06:25",
+      "LLM08:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "manoj@sovereignaisecurity.com"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 122,
+  "slug": "neuraltrust-generative-application-firewall-gaf-neuraltrust",
+  "title": "NeuralTrust Generative Application Firewall (GAF)",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Generative Application Firewall ensures secure data and output handling by inspecting and controlling LLM inputs and responses in real time, preventing sensitive data leakage and enforcing policies on generated content before delivery.",
+  "link": "https://neuraltrust.ai/generative-application-firewall",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate",
+      "Data Augmentation and Fine-Tuning"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Secure Data Handling",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

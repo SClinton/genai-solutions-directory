@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "slug": "pangea-redact-pangea",
+  "title": "Pangea Redact",
+  "company": "Pangea",
+  "description": "Protect your users and application by redacting sensitive info from prompt inputs, prompt responses, and contextual data, using Pangea's Redact service.",
+  "link": "https://pangea.cloud/services/redact/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rob@pangea.cloud"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 125,
+  "slug": "sentrasuite-ai-threatintel-sovereignai-security-labs-pvt-ltd",
+  "title": "SentraSuite - AI ThreatIntel",
+  "company": "SovereignAI Security Labs Pvt. Ltd.",
+  "description": "AI ThreatIntel classifies AI-direct and AI-indirect vulnerabilities, prioritizes AI-relevant CVEs for organizational technology stacks, and delivers validated advisories, remediation guidance, and API/webhook feeds to accelerate risk triage and ongoing AI security operations.",
+  "link": "https://www.sovereignaisecurity.com/products/aithreatintel",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM03:25",
+      "LLM05:25",
+      "LLM06:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "AI/LLM Secure Posture Management",
+        "Patch and Update Alerts",
+        "Security Alerting",
+        "Observability"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "manoj@sovereignaisecurity.com"
+}

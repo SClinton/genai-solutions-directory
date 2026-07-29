@@ -1,0 +1,35 @@
+{
+  "id": 106,
+  "slug": "veza-access-monitoring-veza",
+  "title": "Veza Access Monitoring",
+  "company": "Veza",
+  "description": "Detects identity threats by correlating effective permissions (create, read, write, delete) with actual usage. Identifies over-privileged identities and anomalous behavior within AI workloads in real-time, alerting to potential data exfiltration or model tampering attempts in real-time.",
+  "link": "https://veza.com/product/activity-monitoring/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM03:25",
+      "LLM06:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "User Activity Monitoring"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nvaideeswaran@veza.com"
+}

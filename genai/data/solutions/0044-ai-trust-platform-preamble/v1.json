@@ -1,0 +1,69 @@
+{
+  "id": 44,
+  "slug": "ai-trust-platform-preamble",
+  "title": "AI Trust Platform",
+  "company": "Preamble",
+  "description": "Preamble provides runtime guardrails for RAG, LLMs, and AI agents by enforcing safety, privacy, security, and compliance policies while mitigating real-time risks to ensure secure, reliable AI operations.",
+  "link": "https://www.preamble.com/solution",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor",
+      "Operate",
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "AI/LLM Secure Posture Management",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jeremy@preamble.com"
+}

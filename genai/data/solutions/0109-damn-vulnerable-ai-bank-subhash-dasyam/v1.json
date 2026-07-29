@@ -1,0 +1,47 @@
+{
+  "id": 109,
+  "slug": "damn-vulnerable-ai-bank-subhash-dasyam",
+  "title": "Damn Vulnerable AI Bank",
+  "company": "Subhash Dasyam",
+  "description": "Damn Vuln AI Bank is a simulated banking platform for assessing Large Language Model security. It enables researchers to test AI defenses against prompt injection and logic manipulation through controlled scenarios, ranging from educational drills to hardened simulations.",
+  "link": "https://www.dvaib.com",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Application Security Orchestration and Correlation",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "End User",
+  "submitter_email": "subhashdasyam@gmail.com"
+}

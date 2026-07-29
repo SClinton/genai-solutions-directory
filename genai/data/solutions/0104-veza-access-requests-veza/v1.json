@@ -1,0 +1,36 @@
+{
+  "id": 104,
+  "slug": "veza-access-requests-veza",
+  "title": "Veza Access Requests",
+  "company": "Veza",
+  "description": "Secures developer workflows with automated, policy-driven provisioning. Enforces least privilege by granting time-bound, Just-In-Time access to experimental data and models, ensuring only authorized personnel interact with sensitive LLM environments during development.",
+  "link": "https://veza.com/product/access-requests/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM03:25",
+      "LLM06:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nvaideeswaran@veza.com"
+}

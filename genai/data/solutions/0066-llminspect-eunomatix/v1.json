@@ -1,0 +1,49 @@
+{
+  "id": 66,
+  "slug": "llminspect-eunomatix",
+  "title": "LLMInspect",
+  "company": "EUNOMATIX",
+  "description": "LLMInspect is an enterprise-level Generative AI Gateway to detect and block data leakages and data threats while ensuring the safe use of Commercial LLMs (like OpenAI, Gemini, DeepSeek, Mistral, etc).",
+  "link": "https://eunomatix.com/site/web/products-llminspect.html",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "mark.leo@eunomatix.com"
+}

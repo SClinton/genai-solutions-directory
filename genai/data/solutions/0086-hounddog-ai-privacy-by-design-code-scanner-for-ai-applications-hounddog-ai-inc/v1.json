@@ -1,0 +1,36 @@
+{
+  "id": 86,
+  "slug": "hounddog-ai-privacy-by-design-code-scanner-for-ai-applications-hounddog-ai-inc",
+  "title": "HoundDog.ai Privacy-by-Design Code Scanner for AI Applications",
+  "company": "HoundDog.ai, Inc.",
+  "description": "A privacy-focused code scanner that detects AI integrations embedded in code, including shadow AI, blocks unapproved data types in LLM prompts and other risky data sinks before any code reaches production, and generates audit-ready Privacy Impact Assessments prefilled with detected data flows and privacy risks.",
+  "link": "https://github.com/hounddogai/hounddog",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM02:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "SAST/DAST/ IAST",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amjad@hounddog.ai"
+}

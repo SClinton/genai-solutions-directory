@@ -1,0 +1,49 @@
+{
+  "id": 139,
+  "slug": "fortiaigate-fortinet",
+  "title": "FortiAIGate",
+  "company": "Fortinet",
+  "description": "FortiAIGate is a AI gateway that routes LLM traffic across providers, enforces input/output security controls, detects prompt injection, toxicity, and sensitive data exposure, and provides centralized logging, policy management, and usage visibility.",
+  "link": "https://www.fortinet.com/products/fortiaigate",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Data Integrity and Encryption",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "cmendes@fortinet.com"
+}

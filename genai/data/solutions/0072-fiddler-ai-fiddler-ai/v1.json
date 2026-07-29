@@ -1,0 +1,40 @@
+{
+  "id": 72,
+  "slug": "fiddler-ai-fiddler-ai",
+  "title": "Fiddler AI",
+  "company": "Fiddler AI",
+  "description": "The Fiddler AI Observability and Security platform offers the industry's fastest guardrails, with response times <100 ms, to protect LLM applications from hallucinations, safety violations, and jailbreak attempts in cloud or private VPC environments.",
+  "link": "https://www.fiddler.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM07:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "Security Alerting",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "marketing@fiddler.ai"
+}

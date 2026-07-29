@@ -1,0 +1,42 @@
+{
+  "id": 93,
+  "slug": "sfcl-axiomata-kiteframe-l-l-c",
+  "title": "SFCL/Axiomata",
+  "company": "Kiteframe, L.L.C.",
+  "description": "A reproducible governance kernel for conversational AI.\nImplements structured epistemology, deterministic reasoning, and safety modes to make truth-honoring, human-protective dialogue auditable, policy-compliant, and license-ready across open or proprietary LLM hosts.",
+  "link": "https://www.kiteframe.app/axiomata.html",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Incident Governance",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jim@kiteframe.app"
+}

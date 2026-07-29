@@ -1,0 +1,47 @@
+{
+  "id": 87,
+  "slug": "lumia-security-lumia-security",
+  "title": "Lumia Security",
+  "company": "Lumia Security",
+  "description": "Lumia is the AI Usage Control platform that enables enterprises to safely adopt and use AI by monitoring and governing how employees and autonomous agents interact with AI systems.",
+  "link": "https://www.lumia.security/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern",
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM06:23"
+    ],
+    "top10_2025": [
+      "LLM02:25",
+      "LLM06:25",
+      "LLM01:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "User/Machine Access audits",
+        "Risk Assessment and Management"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": []
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "noa@lumia.security"
+}

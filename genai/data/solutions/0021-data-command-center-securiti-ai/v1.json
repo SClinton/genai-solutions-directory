@@ -1,0 +1,131 @@
+{
+  "id": 21,
+  "slug": "data-command-center-securiti-ai",
+  "title": "Data Command Center",
+  "company": "Securiti AI",
+  "description": "Securiti Data Command Center provides unified intelligence, controls, and orchestration for enabling the safe use of data and AI across hybrid multi-clouds. Enterprises rely on Securiti for automating data+AI security, privacy, governance, and compliance.",
+  "link": "https://securiti.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Data Augmentation and Fine-Tuning",
+      "Development and Experimentation",
+      "Test and Evaluation",
+      "Release",
+      "Deploy",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning",
+        "Compliance and Regulatory Assessment",
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data",
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Secure Data Handling",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)",
+        "Model and Application Interaction Security"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "LLM Benchmarking"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "Model Security Posture Evaluation",
+        "User Access Control Validation"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "Multi-factor Authentication",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Data Integrity and Encryption",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "User Activity Monitoring",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nikhil.girdhar@securiti.ai"
+}

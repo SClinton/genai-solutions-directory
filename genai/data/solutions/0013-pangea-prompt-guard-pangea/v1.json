@@ -1,0 +1,34 @@
+{
+  "id": 13,
+  "slug": "pangea-prompt-guard-pangea",
+  "title": "Pangea Prompt Guard",
+  "company": "Pangea",
+  "description": "Pangea's Prompt Guard service utilizes a deep understanding of prompt templates, heuristics and trained models to detect direct or indirect prompt injection attacks and jailbreak attempts.",
+  "link": "https://pangea.cloud",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM03:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rob@pangea.cloud"
+}

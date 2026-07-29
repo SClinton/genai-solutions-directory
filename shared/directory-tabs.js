@@ -7,6 +7,7 @@
   const DATABASES = [
     { key: "agentic", label: "Agentic", path: "agentic/index.html" },
     { key: "redteam", label: "Red Teaming", path: "redteam/index.html" },
+    { key: "genai", label: "GenAI", path: "genai/index.html" },
   ];
 
   const tabsEl = document.getElementById("db-tabs");

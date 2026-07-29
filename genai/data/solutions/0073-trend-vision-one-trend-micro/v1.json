@@ -1,0 +1,64 @@
+{
+  "id": 73,
+  "slug": "trend-vision-one-trend-micro",
+  "title": "Trend Vision Oneª",
+  "company": "Trend Micro",
+  "description": "Trend Vision Oneª is an AI-powered cybersecurity platform that centralizes risk management, security operations, and protection layers across your entire digital estate, helping predict and prevent threats while eliminating blind spots.",
+  "link": "https://documents.trendmicro.com/images/uploads/owasp%2010%20llm%20and%20vision%20one.pdf",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate",
+      "Monitor",
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM08:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Patch Management",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Data Integrity and Encryption",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "LLM Benchmarking",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "trent_holmes@trendmicro.com"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 69,
+  "slug": "lasso-for-employees-lasso",
+  "title": "Lasso for Employees",
+  "company": "Lasso",
+  "description": "Lasso for employees is an easy-to-install Browser Extension that provides organizations with a holistic view and comprehensive protection of GenAI usage in under 10 minutes from installation. Monitor and protect employee GenAI chatbot usage to ensure security and compliance.",
+  "link": "https://www.lasso.security/solutions/lasso-for-employees",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "LLM Enabled Web Application Firewall",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "orlyb@lasso.security"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 85,
+  "slug": "verigenai-verigenai",
+  "title": "VeriGenAI",
+  "company": "VeriGenAI",
+  "description": "VeriGenAI is an adaptive AI security platform delivering full OWASP LLM Top 10 compliance. Forty-two specialized agents generate dynamic, context-aware attacks, learning each applicationÕs vulnerabilities to achieve 95% detection accuracy across modern AI threat categories.",
+  "link": "https://verigen.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "carlos@verigen.ai"
+}

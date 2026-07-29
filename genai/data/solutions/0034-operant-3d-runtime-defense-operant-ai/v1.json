@@ -1,0 +1,64 @@
+{
+  "id": 34,
+  "slug": "operant-3d-runtime-defense-operant-ai",
+  "title": "Operant 3D Runtime Defense",
+  "company": "Operant AI",
+  "description": "Operant provides runtime application defense with threat detection and remediation, automated policy enforcement, and in-line PII redaction. It secures cloud-native environments, protecting APIs, data flows, and AI workloads against emerging threats without requiring instrumentation or integrations.",
+  "link": "https://www.operant.ai/product/ai-security",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor",
+      "Development and Experimentation",
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Secure API Access",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "julie.rockett@operant.ai"
+}

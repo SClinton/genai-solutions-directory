@@ -1,0 +1,46 @@
+{
+  "id": 4,
+  "slug": "hiddenlayer-aisec-platform-hiddenlayer-inc",
+  "title": "HiddenLayer AISec Platform",
+  "company": "HiddenLayer, Inc",
+  "description": "HiddenLayer is the leading provider of Security for AI. Its security platform helps enterprises safeguard AI assets, including predictive and generative models. HiddenLayer's solution provides automated and scalable Security for AI across the ML lifecycle via their core product solution:  ML Model Scanner, AI Detection & Response and Workbench.   Founded by a team with deep roots in security and ML, HiddenLayer aims to protect enterpriseÕs AI from prompt injection, bypass, extraction attacks, and model theft.",
+  "link": "https://hiddenlayer.com/aisec-platform/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amaines@hiddenlayer.com"
+}

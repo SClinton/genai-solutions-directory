@@ -1,0 +1,45 @@
+{
+  "id": 113,
+  "slug": "wonderfence-alice",
+  "title": "WonderFence",
+  "company": "Alice",
+  "description": "WonderSuite is AliceÕs end-to-end AI security platform combining pre-launch adversarial testing, real-time runtime guardrails, and continuous production red teaming, all powered by Rabbit Hole, the worldÕs largest adversarial intelligence dataset.",
+  "link": "https://alice.io/products/platform",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "mos@alice.io"
+}

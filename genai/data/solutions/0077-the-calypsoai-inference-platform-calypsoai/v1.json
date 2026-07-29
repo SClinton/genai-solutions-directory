@@ -1,0 +1,57 @@
+{
+  "id": 77,
+  "slug": "the-calypsoai-inference-platform-calypsoai",
+  "title": "The CalypsoAI Inference Platform",
+  "company": "CalypsoAI",
+  "description": "CalypsoAI secures generative AI across applications and agents. The CalypsoAI Inference Platform tests, defends, and monitors AI in production. With Defend, Red-Team, and Observe, enterprises gain control and confidence in their GenAI deployments.",
+  "link": "https://calypsoai.com/inference-platform/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Release",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Release",
+      "items": [
+        "AI/ML Bill of Materials (BOM)",
+        "Digital Model Signing",
+        "Model Security Posture Evaluation",
+        "Secure CI/CD pipeline",
+        "Secure Supply Chain Verification",
+        "Static and Dynamic Code Analysis",
+        "User Access Control Validation"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "Louise.scully@calypsoai.com"
+}

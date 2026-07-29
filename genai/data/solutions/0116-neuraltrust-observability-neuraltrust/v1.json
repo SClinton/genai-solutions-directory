@@ -1,0 +1,44 @@
+{
+  "id": 116,
+  "slug": "neuraltrust-observability-neuraltrust",
+  "title": "NeuralTrust Observability",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Observability provides real-time visibility into LLM applications, enabling tracing, analytics, and monitoring of inputs, outputs, and system behavior to detect risks, ensure compliance, and improve performance.",
+  "link": "https://neuraltrust.ai/observability",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Model Behavior Analysis",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

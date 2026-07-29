@@ -1,0 +1,43 @@
+{
+  "id": 94,
+  "slug": "asenion-ai-assurance-asenion",
+  "title": "Asenion AI Assurance",
+  "company": "Asenion",
+  "description": "Policy-aware AI Assurance solution to test AI against safety, security and compliance.",
+  "link": "https://Asenion.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "Fion@asenion.ai"
+}

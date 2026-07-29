@@ -1,0 +1,40 @@
+{
+  "id": 46,
+  "slug": "ironcore-labs-cloaked-ai-ironcore-labs",
+  "title": "IronCore Labs Cloaked AI",
+  "company": "IronCore Labs",
+  "description": "Encrypts vector embeddings stored in databases while still allowing kNN/aNN searches and preventing vector inversion attacks.",
+  "link": "https://github.com/ironcorelabs/ironcore-alloy/",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Deploy",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Encryption",
+        "Secrets management"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Data Integrity and Encryption"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "bob.wall@ironcorelabs.com"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 96,
+  "slug": "sysdig-sysdig",
+  "title": "Sysdig",
+  "company": "Sysdig",
+  "description": "Sysdig provides AI security that includes comprehensive monitoring of AI models for resource usage and anomalies that point to malicious behavior, runtime security that identifies suspicious behavior and unauthorized access, and compliance enforcement to keep AI models with industry regulations and standards.",
+  "link": "https://sysdig.com",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM07:23",
+      "LLM08:23"
+    ],
+    "top10_2025": [
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM06:25",
+      "LLM08:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Automated Vulnerability Scanning",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "manuel.boira@sysdig.com"
+}

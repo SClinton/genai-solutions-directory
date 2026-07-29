@@ -1,0 +1,63 @@
+{
+  "id": 112,
+  "slug": "fuel-ix-fortify-telus-digital",
+  "title": "Fuel iX Fortify",
+  "company": "TELUS Digital",
+  "description": "An automated testing and monitoring application that uses novel, multi-turn, and use-case-specific attacks Ñ enabling stakeholders to continuously identify, document, and remediate GenAI vulnerabilities according to industry-standard mitigations throughout the application development cycle.",
+  "link": "https://www.fuelix.ai/products/fuel-fortify",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Monitor",
+      "Development and Experimentation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM05:25",
+      "LLM07:25",
+      "LLM09:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Experiment Tracking",
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "phill.thompson@telusdigital.com"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 79,
+  "slug": "skyrelis-skyrelis",
+  "title": "Skyrelis",
+  "company": "Skyrelis",
+  "description": "Skyrelis provides runtime policy enforcement and agent behavior monitoring for multi-agent systems, enabling fine-grained visibility, risk scoring, and adaptive controls to mitigate misuse and ensure safe autonomous decision-making.",
+  "link": "https://skyrelis.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM09:23",
+      "LLM10:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM07:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Prompt Security",
+        "Runtime Application Self-Protection"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "sree.vakil@skyrelis.com"
+}

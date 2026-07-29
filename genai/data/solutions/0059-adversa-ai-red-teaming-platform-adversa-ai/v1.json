@@ -1,0 +1,44 @@
+{
+  "id": 59,
+  "slug": "adversa-ai-red-teaming-platform-adversa-ai",
+  "title": "Adversa AI Red Teaming Platform",
+  "company": "Adversa AI",
+  "description": "Adversa AI's Red Teaming platform provides automated security testing of Generative AI systems, identifying all possible vulnerabilities like jailbreaks, prompt injections, and adversarial attacks to enhance AI security and safety.",
+  "link": "https://adversa.ai/ai-red-teaming-llm/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Final Security Audit",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alex@adversa.ai"
+}

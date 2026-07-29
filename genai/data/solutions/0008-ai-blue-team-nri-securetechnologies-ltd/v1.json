@@ -1,0 +1,46 @@
+{
+  "id": 8,
+  "slug": "ai-blue-team-nri-securetechnologies-ltd",
+  "title": "AI Blue Team",
+  "company": "NRI SecureTechnologies, Ltd.",
+  "description": "AI Blue Team Service provides continuous security monitoring for AI systems, specializing in Large Language Models. It detects AI-specific threats like prompt injection and sensitive information disclosure, offering real-time alerts and customized protection based on evolving threat intelligence.",
+  "link": "https://www.nri-secure.com/security-solutions/ai-blue-team-service",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM08:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling",
+        "Adversarial Input Detection",
+        "Security Alerting",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "tteruhiro@nri-secure.com"
+}

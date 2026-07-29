@@ -1,0 +1,42 @@
+{
+  "id": 27,
+  "slug": "https-blueteam-ai-blueteam-ai",
+  "title": "https://blueteam.ai/",
+  "company": "Blueteam AI",
+  "description": "Blueteam AI Gateway is a network-layer appliance that intercepts traffic to AI models and discovers AI use, safeguards data from leaking, and governs safe and responsible AI use through real-time policy enforcement.",
+  "link": "https://Blueteam AI Gateway",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Data Integrity and Encryption",
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "feynman@blueteam.ai"
+}

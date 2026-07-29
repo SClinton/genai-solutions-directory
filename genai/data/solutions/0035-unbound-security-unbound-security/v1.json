@@ -1,0 +1,37 @@
+{
+  "id": 35,
+  "slug": "unbound-security-unbound-security",
+  "title": "Unbound Security",
+  "company": "Unbound Security",
+  "description": "Unbound AI gateways solves for guardrails, prompt injection, and jailbreaking attacks while helping customers create routing policies based on data sensitivity. For example, prompts containing PII can be routed to smaller language models controlled by the enterprise",
+  "link": "https://unboundsecurity.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM08:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Incident Governance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "raj@unboundsecurity.ai"
+}

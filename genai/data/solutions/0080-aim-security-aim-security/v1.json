@@ -1,0 +1,45 @@
+{
+  "id": 80,
+  "slug": "aim-security-aim-security",
+  "title": "Aim Security",
+  "company": "Aim Security",
+  "description": "The Aim AI Security platform ensures the security of every AI interaction, agent, and application, safeguarding against adversarial attacks, data leaks, and compliance breaches.",
+  "link": "https://www.aim.security/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Deploy"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "Deployment Validation",
+        "LLM Enabled Web Application Firewall",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "steve.coplan@aim.security"
+}

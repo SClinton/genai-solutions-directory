@@ -1,0 +1,42 @@
+{
+  "id": 128,
+  "slug": "datumo-datumo",
+  "title": "DATUMO",
+  "company": "DATUMO",
+  "description": "DATUMO provides evaluation and red teaming capabilities for LLM applications, enabling automated testing, risk detection, and performance analysis across data, model, and application layers to support reliable, safe, and scalable AI system operation.",
+  "link": "https://datumo.com/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM07:25",
+      "LLM09:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "LLM Benchmarking"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "sewoong.moh@selectstar.ai"
+}

@@ -1,0 +1,49 @@
+{
+  "id": 3,
+  "slug": "zenguard-ai-zenguard-ai",
+  "title": "ZenGuard AI",
+  "company": "ZenGuard AI",
+  "description": "ZenGuard AI offers a dev-first API platform for the fastest low-latency GenAI guardrails and hassle-free vulnerability testing for AI applications.",
+  "link": "https://console.zenguard.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM_All:23",
+      "LLM01:23",
+      "LLM02:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "galym@zenguard.ai"
+}

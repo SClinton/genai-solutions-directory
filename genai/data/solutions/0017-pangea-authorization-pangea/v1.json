@@ -1,0 +1,39 @@
+{
+  "id": 17,
+  "slug": "pangea-authorization-pangea",
+  "title": "Pangea Authorization",
+  "company": "Pangea",
+  "description": "Pangea's Authorization service is an access control engine that integrates with any AI application through easy-to-use APIs and SDKs. It is used to enforce access controls to LLMs, contextual data in RAG pipelines, and agent-based operations.",
+  "link": "https://pangea.cloud/services/authz/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)",
+        "Model and Application Interaction Security",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "rob@pangea.cloud"
+}

@@ -1,0 +1,114 @@
+{
+  "id": 5,
+  "slug": "pillar-security-pillar-security",
+  "title": "Pillar Security",
+  "company": "Pillar Security",
+  "description": "Pillar enables teams to rapidly adopt AI with minimal risk by providing a unified AI security and governance layer across the organization",
+  "link": "https://pillar.security",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Scoping/Planning",
+      "Data Augmentation and Fine-Tuning",
+      "Development and Experimentation",
+      "Release",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM03:23",
+      "LLM05:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "LLM Benchmarking",
+        "Penetration Testing",
+        "Incident Simulation",
+        "Response Testing",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Early Identification of Sensitive Data"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Adversarial Robustness Testing"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "Software Composition Analysis"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "AI/ML Bill of Materials (BOM)"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "Automated Vulnerability Scanning",
+        "LLM Guardrails",
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Runtime Application Self-Protection"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Compliance Management",
+        "Incident Governance",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "mark.phillips@pillar.security"
+}

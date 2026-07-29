@@ -1,0 +1,49 @@
+{
+  "id": 71,
+  "slug": "apex-security-ai-apex-security-ai",
+  "title": "Apex Security AI",
+  "company": "Apex Security AI",
+  "description": "Apex Security leverages proprietary AI models to detect adversarial attempts in LLM inputs/outputs, identifying sensitive data exposure, leakage, complex manipulations, and risky agents. It integrates seamlessly and agentlessly with enterprise Generative AI platforms.",
+  "link": "https://www.apexhq.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Model Behavior Analysis",
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "keren@apexsec.ai"
+}

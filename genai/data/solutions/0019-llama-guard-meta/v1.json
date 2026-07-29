@@ -1,0 +1,35 @@
+{
+  "id": 19,
+  "slug": "llama-guard-meta",
+  "title": "Llama Guard",
+  "company": "Meta",
+  "description": "Llama Guard is a set of LLM system safeguards designed to support developers to detect various common types of violating content across multiple use cases including multilingual, image reasoning, or on-device deployments.",
+  "link": "https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM06:23",
+      "LLM07:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Guardrails"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "zachariedc@meta.com"
+}

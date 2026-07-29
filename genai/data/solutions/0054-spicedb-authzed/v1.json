@@ -1,0 +1,47 @@
+{
+  "id": 54,
+  "slug": "spicedb-authzed",
+  "title": "SpiceDB",
+  "company": "AuthZed",
+  "description": "Open source, Google Zanzibar-inspired permissions database for scalably storing and querying fine-grained authorization data",
+  "link": "https://spicedb.io",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM10:23",
+      "LLM04:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Access Control and Authentication Planning",
+        "Data Privacy and Protection Strategy"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "jess@authzed.com"
+}

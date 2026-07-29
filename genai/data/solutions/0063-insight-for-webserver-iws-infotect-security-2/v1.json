@@ -1,0 +1,39 @@
+{
+  "id": 63,
+  "slug": "insight-for-webserver-iws-infotect-security-2",
+  "title": "Insight For Webserver (IWS)",
+  "company": "Infotect Security",
+  "description": "IWS scans outbound response traffic in real time for undesirable content and confidential data at layer 4. It is a paradigm shift in web security.",
+  "link": "https://www.infotectsecurity.com/?genai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Incident Detection and Response",
+        "Privacy",
+        "Data Leakage Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "willy@infotectsecurity.com"
+}

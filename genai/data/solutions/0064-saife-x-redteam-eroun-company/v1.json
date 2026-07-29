@@ -1,0 +1,37 @@
+{
+  "id": 64,
+  "slug": "saife-x-redteam-eroun-company",
+  "title": "SAIFE X RedTeam",
+  "company": "Eroun&Company",
+  "description": "RedTeam solution to automate detection of malicious prompt attack vulnerabilities against LLM",
+  "link": "https://www.eroun.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM07:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "LLM Benchmarking"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "dsyoon@eroun.ai"
+}

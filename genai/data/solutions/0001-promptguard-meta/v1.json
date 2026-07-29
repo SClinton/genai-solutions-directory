@@ -1,0 +1,34 @@
+{
+  "id": 1,
+  "slug": "promptguard-meta",
+  "title": "PromptGuard",
+  "company": "Meta",
+  "description": "PromptGuard is a lightweight, low-latency model for detecting prompt injections and jailbreaks. The model sees significant iteration driven by community adoption and feedback, making it more robust over time.",
+  "link": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM_All:23",
+      "LLM01:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Model Behavior Analysis",
+        "Adversarial Input Detection"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "cyni@meta.com"
+}

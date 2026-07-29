@@ -1,0 +1,36 @@
+{
+  "id": 74,
+  "slug": "dryrun-security-dryrun-security",
+  "title": "DryRun Security",
+  "company": "DryRun Security",
+  "description": "DryRun Security helps engineering teams identify risky code before it ships using contextual security analysis. It surfaces subtle security flaws by understanding code behavior, not just patterns or keywords.",
+  "link": "https://app.dryrun.security",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM08:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Final Security Audit",
+        "SAST/DAST/IAST",
+        "Vulnerability Scanning"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "ken@dryrunsecurity.com"
+}

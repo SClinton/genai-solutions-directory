@@ -1,0 +1,41 @@
+{
+  "id": 118,
+  "slug": "neuraltrust-compliance-neuraltrust",
+  "title": "Neuraltrust Compliance",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Compliance enable compliance and regulatory assessment by mapping AI policies to frameworks such as EU AI Act, NIST, and ISO, automating evidence collection, and generating audit-ready reports with continuous monitoring.",
+  "link": "https://neuraltrust.ai/security-agents",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Compliance and Regulatory Assessment"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

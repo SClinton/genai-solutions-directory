@@ -1,0 +1,44 @@
+{
+  "id": 32,
+  "slug": "aishield-guardian-aisheild-powered-by-bosch",
+  "title": "AIShield Guardian",
+  "company": "AISheild,Powered by Bosch",
+  "description": "AIShield Guardian functions as an AI firewall and guardrail, providing secure access control, sensitive data protection, and live monitoring. It safeguards interactions between applications and LLMs, ensuring safety, compliance, and policy adherence.",
+  "link": "https://boschaishield.com/aishield-guardian/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "AI/LLM Secure Posture Management",
+        "Security Alerting",
+        "User Activity Monitoring",
+        "Observability",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "amit.phadke@bosch.com"
+}

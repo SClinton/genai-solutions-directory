@@ -1,0 +1,37 @@
+{
+  "id": 42,
+  "slug": "knostic-knostic",
+  "title": "Knostic",
+  "company": "Knostic",
+  "description": "Knostic identifies data leakage from LLM-powered enterprise search and provides need-to-know based access controls, ensuring employees receive only the information necessary for their roles, thereby maximizing productivity while minimizing security risks.",
+  "link": "https://knostic.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM02:23",
+      "LLM05:23",
+      "LLM06:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Operate",
+      "items": [
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "sounil@knostic.ai"
+}

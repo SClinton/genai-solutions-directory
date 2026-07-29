@@ -1,0 +1,46 @@
+{
+  "id": 9,
+  "slug": "mend-ai-mend",
+  "title": "Mend AI",
+  "company": "Mend",
+  "description": "Mend AI provides a shift-left solution for securing AI-driven applications. It enables discovery of shadow AI, security and compliance analysis through code scanning and red-teaming, and remediation with guardrails and fix suggestions.",
+  "link": "https://www.mend.io/mend-ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security",
+        "SAST/DAST/ IAST",
+        "Secure Coding Practices",
+        "Secure Library/Code  Repository",
+        "Software Composition Analysis"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "bar-el.tayouri@mend.io"
+}

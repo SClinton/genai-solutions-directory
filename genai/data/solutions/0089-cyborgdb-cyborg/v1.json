@@ -1,0 +1,34 @@
+{
+  "id": 89,
+  "slug": "cyborgdb-cyborg",
+  "title": "CyborgDB",
+  "company": "Cyborg",
+  "description": "CyborgDB is a proxy enabling secure storage and querying of vector embeddings in existing relational databases (PostgreSQL, Redis, Valkey), with encryption-in-use, customer-controlled key management, and seamless compatibility with current systems.",
+  "link": "https://cyborg.co",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [
+      "LLM08:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "Access",
+        "Authentication and Authorization (MFA)",
+        "Secure Coding Practices"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "cmitchell@cyborg.co"
+}

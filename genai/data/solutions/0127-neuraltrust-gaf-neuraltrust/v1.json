@@ -1,0 +1,42 @@
+{
+  "id": 127,
+  "slug": "neuraltrust-gaf-neuraltrust",
+  "title": "NeuralTrust GAF",
+  "company": "NeuralTrust",
+  "description": "NeuralTrust Generative Application Firewall enables continuous vulnerability scanning and behavioral threat detection by analyzing LLM interactions, identifying anomalies, multi-turn attack patterns, and semantic exploits in real time to enforce policies and prevent misuse before escalation.",
+  "link": "https://neuraltrust.ai/behavioral-threat-detection",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Development and Experimentation"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning",
+        "Model and Application Interaction Security"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "alessandro.pignati@neuraltrust.ai"
+}

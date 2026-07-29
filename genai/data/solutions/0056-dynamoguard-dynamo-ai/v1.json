@@ -1,0 +1,56 @@
+{
+  "id": 56,
+  "slug": "dynamoguard-dynamo-ai",
+  "title": "DynamoGuard",
+  "company": "Dynamo AI",
+  "description": "DynamoGuard offers real-time guardrailing for GenAI, customizable in natural language and capable of running in the cloud, hybrid, on-prem or fully on edge devices to ensure complete AI privacy and security.",
+  "link": "https://dynamo.ai",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Govern",
+      "Monitor",
+      "Operate"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM06:23",
+      "LLM09:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Risk Assessment and Management"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Regulatory Compliance Tracking",
+        "User Activity Monitoring",
+        "Observability",
+        "Ethical Compliance"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "dan@dynamo.ai"
+}

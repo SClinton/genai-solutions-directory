@@ -1,0 +1,46 @@
+{
+  "id": 20,
+  "slug": "lakera-lakera",
+  "title": "Lakera",
+  "company": "Lakera",
+  "description": "Lakera is an AI Application Firewall that protects against prompt attacks, data loss, and inappropriate content. Lakera integrates with a single line of code and offers no-code policy configuration for enterprise-wide security.",
+  "link": "https://www.lakera.ai/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Monitor"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Monitor",
+      "items": [
+        "Adversarial Input Detection",
+        "Regulatory Compliance Tracking",
+        "Security Alerting",
+        "Security Metrics Collection",
+        "Data Privacy and Protection",
+        "Ethical Compliance"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "david@lakera.ai"
+}

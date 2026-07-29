@@ -1,0 +1,115 @@
+{
+  "id": 41,
+  "slug": "prisma-cloud-ai-spm-palo-alto-networks",
+  "title": "Prisma Cloud AI-SPM",
+  "company": "Palo Alto Networks",
+  "description": "Prisma Cloud AI-SPM helps organizations discover, classify, protect and govern AI-powered applications. It provides visibility into the entire AI ecosystem including model, applications and resources, to reduce the risk of data exposure and compliance breaches. By identifying model vulnerabilities and prioritizing misconfigurations, it improves the integrity of the AI security framework.",
+  "link": "https://www.prismacloud.io/prisma/cloud/ai-spm",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Data Augmentation and Fine-Tuning",
+      "Development and Experimentation",
+      "Test and Evaluation",
+      "Release",
+      "Deploy",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM03:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM07:23",
+      "LLM08:23",
+      "LLM09:23",
+      "LLM10:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Compliance and Regulatory Assessment",
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data",
+        "Third-Party Risk Assessment (Model",
+        "Provider",
+        "etc)",
+        "Threat Modeling"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Secure Data Handling",
+        "Secure Output Handling",
+        "Vulnerability Assessment"
+      ]
+    },
+    {
+      "group": "Development and Experimentation",
+      "items": [
+        "LLM & App Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Final Security Audit",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Release",
+      "items": [
+        "Model Security Posture Evaluation",
+        "Secure Supply Chain Verification"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Compliance Verification",
+        "Encryption",
+        "Secrets management",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Automated Vulnerability Scanning",
+        "Data Integrity and Encryption",
+        "LLM Guardrails"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "AI/LLM Secure Posture Management",
+        "Regulatory Compliance Tracking",
+        "Data Privacy and Protection"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "sfarber@paloaltonetworks.com"
+}

@@ -1,0 +1,109 @@
+{
+  "id": 83,
+  "slug": "prediction-guard-prediction-guard",
+  "title": "Prediction Guard",
+  "company": "Prediction Guard",
+  "description": "Prediction Guard is a security-first AI platform that unifies: infrastructure sovereignty, standards-aligned governance, and no-code agent development into a single, hardened system. AI is a Distributed System, Not a Model. Risk emerges from the complex mesh of integrations between models, tools, data sources, and users. Prediction Guard specifically addresses AI governance and system-level security across the ability to deploy, manage and govern AI systems made up of models, tools and applications across distributed cloud architectures.",
+  "link": "https://www.predictionguard.com",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Scoping/Planning",
+      "Data Augmentation and Fine-Tuning",
+      "Test and Evaluation",
+      "Deploy",
+      "Operate",
+      "Monitor",
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM01:23",
+      "LLM02:23",
+      "LLM04:23",
+      "LLM05:23",
+      "LLM06:23",
+      "LLM03:23",
+      "LLM10:23"
+    ],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM03:25",
+      "LLM04:25",
+      "LLM05:25",
+      "LLM06:25",
+      "LLM07:25",
+      "LLM08:25",
+      "LLM09:25",
+      "LLM10:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Data Privacy and Protection Strategy",
+        "Early Identification of Sensitive Data"
+      ]
+    },
+    {
+      "group": "Data Augmentation and Fine-Tuning",
+      "items": [
+        "Secure Data Handling",
+        "Secure Output Handling",
+        "Model Integrity Validation (ex: serialization scanning for malware)",
+        "Vulnerability Assessment"
+      ]
+    },
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "LLM Benchmarking",
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "group": "Deploy",
+      "items": [
+        "Secrets Management",
+        "Secure API Access",
+        "Secure Configuration",
+        "User and Data Privacy Protections"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Privacy",
+        "Data Leakage Protection",
+        "Prompt Security",
+        "Secure Output Handling"
+      ]
+    },
+    {
+      "group": "Monitor",
+      "items": [
+        "Security Metrics Collection",
+        "User Activity Monitoring",
+        "Observability"
+      ]
+    },
+    {
+      "group": "Govern",
+      "items": [
+        "Compliance Management",
+        "Data Security Posture Management",
+        "Risk Assessment and Management",
+        "User/Machine Access audits"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "katie@predictionguard.com"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 40,
+  "slug": "pillar-an-ai-powered-privacy-threat-modeling-tool-p-i-l-l-a-r",
+  "title": "PILLAR : An AI-powered Privacy Threat Modeling tool",
+  "company": "P.I.L.L.A.R",
+  "description": "PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report) is an AI-powered tool developed to automate and enhance privacy threat modeling. Built on the LINDDUN framework, PILLAR leverages Large Language Models (LLMs) to automatically generate Data Flow Diagrams (DFDs), identify privacy threats, and prioritize risks.",
+  "link": "https://pillar-ptm.streamlit.app/",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Scoping/Planning"
+    ],
+    "top10_2023": [
+      "LLM02:23",
+      "LLM03:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Scoping/Planning",
+      "items": [
+        "Data Privacy and Protection Strategy",
+        "Threat Modeling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "End User",
+  "submitter_email": "mmollaeefar@fbk.eu"
+}

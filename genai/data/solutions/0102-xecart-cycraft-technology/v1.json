@@ -1,0 +1,55 @@
+{
+  "id": 102,
+  "slug": "xecart-cycraft-technology",
+  "title": "XecART",
+  "company": "CyCraft Technology",
+  "description": "XecART AI Red Teaming Security Assessment covers model testing, compliance assessment and resilience evaluation. Based on standards including OWASP, ISO, NIST, and financial regulatory guidelines, XecART delivers compliance reports through multi-round adversarial testing, helping enterprises strengthen external, identity, and response resilience to achieve both AI security and compliance excellence.",
+  "link": "https://www.cycraft.com/en/xecart",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Test and Evaluation",
+      "Operate"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM02:25",
+      "LLM05:25",
+      "LLM07:25",
+      "LLM09:25",
+      "LLM04:25",
+      "LLM03:25",
+      "LLM06:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Test and Evaluation",
+      "items": [
+        "Adversarial Testing",
+        "Bias and Fairness Testing",
+        "Final Security Audit",
+        "Incident Simulation",
+        "Response Testing",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "group": "Operate",
+      "items": [
+        "Adversarial Attack Protection",
+        "LLM Guardrails",
+        "Prompt Security",
+        "Runtime Application Self-Protection",
+        "Secure Output Handling"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "vinci.tu@cycraft.com"
+}

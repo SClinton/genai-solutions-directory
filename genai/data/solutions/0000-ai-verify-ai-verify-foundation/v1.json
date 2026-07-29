@@ -1,0 +1,33 @@
+{
+  "id": 0,
+  "slug": "ai-verify-ai-verify-foundation",
+  "title": "AI Verify",
+  "company": "AI Verify Foundation",
+  "description": "AI Verify is an AI governance testing framework and software toolkit that validates the performance of AI systems against a set of internationally recognised principles through standardised tests, and is consistent with international AI governance frameworks such as those from European Union, OECD and Singapore.",
+  "link": "https://aiverifyfoundation.sg/what-is-ai-verify/?utm_source=Github&utm_medium=referral&utm_campaign=20230607_AI_Verify_GitHub",
+  "tags": {
+    "solution_types": [
+      "Open Source"
+    ],
+    "stage": [
+      "Govern"
+    ],
+    "top10_2023": [
+      "LLM_All:23"
+    ],
+    "top10_2025": []
+  },
+  "coverage": [
+    {
+      "group": "Govern",
+      "items": [
+        "Bias and Fairness Oversight",
+        "Risk Assessment and Management"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "End User",
+  "submitter_email": "scott.clinton@scventures.net"
+}

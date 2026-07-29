@@ -1,0 +1,35 @@
+{
+  "id": 107,
+  "slug": "nhi-security-veza",
+  "title": "NHI Security",
+  "company": "Veza",
+  "description": "Locks down non-human identities (NHIs) driving your release pipeline. Discovers, monitors, and rightsizes permissions for service accounts, ensuring automated actors operate within strict least privilege boundaries to prevent supply chain attacks.",
+  "link": "https://veza.com/product/nhi-security/",
+  "tags": {
+    "solution_types": [
+      "Commercial"
+    ],
+    "stage": [
+      "Release"
+    ],
+    "top10_2023": [],
+    "top10_2025": [
+      "LLM01:25",
+      "LLM03:25",
+      "LLM06:25",
+      "LLM07:25"
+    ]
+  },
+  "coverage": [
+    {
+      "group": "Release",
+      "items": [
+        "User Access Control Validation"
+      ]
+    }
+  ],
+  "stars": 0,
+  "forks": 0,
+  "submitter_affiliation": "Company Representative",
+  "submitter_email": "nvaideeswaran@veza.com"
+}
