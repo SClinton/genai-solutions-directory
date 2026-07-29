@@ -24,7 +24,7 @@ window.DB_CONFIG = {
         "Govern",
       ],
     },
-    { key: "team", label: "Red / Blue / Purple Team", tagClass: "tag-team" },
+    { key: "team", label: "Red Teaming Coverage", tagClass: "tag-team" },
     { key: "risk_maps", label: "Risk Posture", tagClass: "tag-risk" },
   ],
 
