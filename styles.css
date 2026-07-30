@@ -594,7 +594,7 @@ html.embedded .site-header {
   flex-direction: column;
   justify-content: flex-start;
   gap: 6px;
-  height: 108px;
+  height: 205px;
   overflow: hidden;
 }
 

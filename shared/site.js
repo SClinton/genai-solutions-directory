@@ -292,7 +292,7 @@
         bottom: node.querySelector(".card-tag-rows"),
       };
       (cfg.cardTagRows || []).forEach((row) => {
-        const values = s[row.key] || [];
+        const values = [...new Set(s[row.key] || [])];
         if (!values.length) return;
         const rowEl = document.createElement("div");
         rowEl.className = "card-tags";
