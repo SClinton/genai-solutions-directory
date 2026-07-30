@@ -652,8 +652,8 @@ html.embedded .site-header {
 }
 
 .card-header-stage .tag {
-  font-size: 0.6rem;
-  padding: 1px 6px;
+  font-size: 0.9rem;
+  padding: 1.5px 9px;
   white-space: nowrap;
 }
 
