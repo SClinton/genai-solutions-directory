@@ -594,8 +594,16 @@ html.embedded .site-header {
   flex-direction: column;
   justify-content: flex-start;
   gap: 6px;
-  height: 205px;
+  height: 128px;
   overflow: hidden;
+}
+
+.card-head .card-title {
+  color: var(--card-head-text);
+}
+
+.card-head .card-company {
+  color: var(--card-head-text-muted);
 }
 
 .card-edit-btn {
@@ -624,7 +632,7 @@ html.embedded .site-header {
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 5px;
-  padding-right: 30px;
+  padding: 0 14px;
 }
 
 .card-header-stage-row[hidden] {
@@ -637,7 +645,7 @@ html.embedded .site-header {
   font-size: 0.64rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--card-head-text-muted);
+  color: var(--text-muted);
   flex-shrink: 0;
   padding-top: 2px;
 }
@@ -677,10 +685,6 @@ html.embedded .site-header {
 
 .card-type-badge .card-tags {
   padding: 0;
-}
-
-.card-title-group {
-  padding: 10px 14px 0;
 }
 
 .card-title {
