@@ -633,6 +633,7 @@ html.embedded .site-header {
   align-content: flex-start;
   gap: 5px;
   padding: 0 14px;
+  margin: 6px 0;
 }
 
 .card-header-stage-row[hidden] {
