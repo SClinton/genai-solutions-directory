@@ -212,23 +212,6 @@ body {
   flex-wrap: wrap;
 }
 
-.header-feedback-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
-  flex-shrink: 0;
-}
-
-.header-feedback-btn:hover {
-  background: rgba(255, 255, 255, 0.24);
-}
 
 .site-logo {
   height: 32px;
@@ -279,11 +262,36 @@ main.wrap {
   padding-top: 28px;
 }
 
+.db-tabs-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
 .db-tabs {
   display: flex;
   gap: 6px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 20px;
+}
+
+.db-feedback-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.db-feedback-btn:hover {
+  background: var(--border);
 }
 
 .db-tab {

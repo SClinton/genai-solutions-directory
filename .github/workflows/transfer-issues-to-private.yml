@@ -1,0 +1,49 @@
+name: Transfer new issues to private repo
+
+# Single review surface: every issue opened here (public submissions, edit
+# suggestions, site feedback -- all opened via the site's forms, which file
+# against this repo since it's the only one anonymous visitors can reach)
+# gets moved into the private source repo immediately, so a maintainer only
+# ever has one place to check. After transfer, only collaborators on the
+# private repo can see the issue -- the original submitter loses the
+# ability to follow it (this is intentional; see solutiondb.docx).
+#
+# Requires a repo secret TRANSFER_ISSUE_PAT: a fine-grained personal access
+# token scoped to ONLY this repo and the private source repo, with "Issues:
+# Read and write" on both. The default GITHUB_TOKEN can't write to a
+# different repository, so this can't use it. See the private repo's
+# ISSUE_TRANSFER_SETUP.md for exact setup steps.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.TRANSFER_ISSUE_PAT }}
+          script: |
+            const destOwner = "SClinton";
+            const destName = "genai-solutions-directory-source";
+
+            const { repository } = await github.graphql(
+              `query($owner: String!, $name: String!) {
+                repository(owner: $owner, name: $name) { id }
+              }`,
+              { owner: destOwner, name: destName }
+            );
+
+            await github.graphql(
+              `mutation($issueId: ID!, $repoId: ID!) {
+                transferIssue(input: { issueId: $issueId, repositoryId: $repoId }) {
+                  issue { url }
+                }
+              }`,
+              { issueId: context.payload.issue.node_id, repoId: repository.id }
+            );
