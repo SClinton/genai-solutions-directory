@@ -8,11 +8,13 @@ name: Transfer new issues to private repo
 # private repo can see the issue -- the original submitter loses the
 # ability to follow it (this is intentional; see solutiondb.docx).
 #
-# Requires a repo secret TRANSFER_ISSUE_PAT: a fine-grained personal access
-# token scoped to ONLY this repo and the private source repo, with "Issues:
-# Read and write" on both. The default GITHUB_TOKEN can't write to a
-# different repository, so this can't use it. See the private repo's
-# ISSUE_TRANSFER_SETUP.md for exact setup steps.
+# Requires a repo secret TRANSFER_ISSUE_PAT: a classic personal access token
+# with the "repo" scope. Must be classic, not fine-grained -- the
+# transferIssue GraphQL mutation below returns "Resource not accessible by
+# personal access token" for fine-grained tokens regardless of granted
+# permissions (tested directly). The default GITHUB_TOKEN can't write to a
+# different repository either way, so this can't use it. See the private
+# repo's ISSUE_TRANSFER_SETUP.md for exact setup steps.
 
 on:
   issues:
