@@ -340,7 +340,7 @@
       "",
       `---`,
       `Submitted by: ${data.submitter_name || "—"} (${data.submitter_affiliation || "—"})`,
-      `Contact: ${data.submitter_email || "—"}`
+      `Contact (RSA-OAEP encrypted, decrypt with decrypt_submission.js): ${data.submitter_email_encrypted || "—"}`
     );
     if (mode === "edit") {
       lines.push(
@@ -385,6 +385,20 @@
     return data;
   }
 
+  // Encrypts the collected email in place with the public key from
+  // shared/encryption.js and removes the plaintext field, so the plaintext
+  // is never in anything passed to buildIssueBody() / openIssue() from here
+  // on -- only the ciphertext (submitter_email_encrypted) is.
+  async function encryptSubmitterEmail(data) {
+    if (data.submitter_email) {
+      data.submitter_email_encrypted = await window.SUBMISSION_ENCRYPTION.encryptText(
+        data.submitter_email
+      );
+    }
+    delete data.submitter_email;
+    return data;
+  }
+
   function openIssue(data, target, note) {
     const { githubOwner, githubRepo } = window.SITE_CONFIG;
     const label = mode === "edit" ? cfg.issueLabelEdit : cfg.issueLabelNew;
@@ -418,10 +432,11 @@
     } catch (err) {
       console.error("Failed to load facet values", err);
     }
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
       if (!captchaPasses()) return;
-      openIssue(collectFormData(), null, note);
+      const data = await encryptSubmitterEmail(collectFormData());
+      openIssue(data, null, note);
     });
   }
 
@@ -478,10 +493,11 @@
 
     form.hidden = false;
 
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
       if (!captchaPasses()) return;
-      openIssue(collectFormData(), target, note);
+      const data = await encryptSubmitterEmail(collectFormData());
+      openIssue(data, target, note);
     });
   }
 
