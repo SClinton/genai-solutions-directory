@@ -46,6 +46,14 @@ window.DB_CONFIG = {
     { key: "top10_2025", label: "LLM Top 10 (2025) Risks Addressed" },
   ],
 
+  // Authoritative capability checklist (replaces the freeform coverage
+  // textarea): fetched, grouped by stage, rendered as checkboxes.
+  // Selections become the entry's "coverage" field.
+  taxonomy: {
+    path: "taxonomy/genai_taxonomy.json",
+    containerId: "taxonomy-checklist",
+  },
+
   issueLabelNew: "genai-new-submission",
   issueLabelEdit: "genai-edit-suggestion",
 };

@@ -1,0 +1,320 @@
+{
+  "Scoping/Planning": [
+    {
+      "name": "Access Control and Authentication Planning",
+      "description": ""
+    },
+    {
+      "name": "Compliance and Regulatory Assessment",
+      "description": ""
+    },
+    {
+      "name": "Data Privacy and Protection Strategy",
+      "description": ""
+    },
+    {
+      "name": "Early Identification of Sensitive Data",
+      "description": ""
+    },
+    {
+      "name": "Third-Party Risk Assessment (Model, Provider, etc)",
+      "description": ""
+    },
+    {
+      "name": "Threat Modeling",
+      "description": ""
+    }
+  ],
+  "Data Augmentation and Fine-Tuning": [
+    {
+      "name": "Adversarial Robustness Testing",
+      "description": ""
+    },
+    {
+      "name": "Model Integrity Validation (ex: serialization scanning for malware)",
+      "description": ""
+    },
+    {
+      "name": "Secure Data Handling",
+      "description": ""
+    },
+    {
+      "name": "Secure Output Handling",
+      "description": ""
+    },
+    {
+      "name": "Vulnerability Assessment",
+      "description": ""
+    }
+  ],
+  "Development and Experimentation": [
+    {
+      "name": "Access, Authentication and Authorization (MFA)",
+      "description": ""
+    },
+    {
+      "name": "Experiment Tracking",
+      "description": ""
+    },
+    {
+      "name": "LLM & App Vulnerability Scanning",
+      "description": ""
+    },
+    {
+      "name": "Model and Application Interaction Security",
+      "description": ""
+    },
+    {
+      "name": "SAST/DAST/ IAST",
+      "description": ""
+    },
+    {
+      "name": "Secure Coding Practices",
+      "description": ""
+    },
+    {
+      "name": "Secure Library/Code Repository",
+      "description": ""
+    },
+    {
+      "name": "Software Composition Analysis",
+      "description": ""
+    }
+  ],
+  "Test and Evaluation": [
+    {
+      "name": "Adversarial Testing",
+      "description": ""
+    },
+    {
+      "name": "Application Security Orchestration and Correlation",
+      "description": ""
+    },
+    {
+      "name": "Bias and Fairness Testing",
+      "description": ""
+    },
+    {
+      "name": "Final Security Audit",
+      "description": ""
+    },
+    {
+      "name": "Incident Simulation, Response Testing",
+      "description": ""
+    },
+    {
+      "name": "LLM Benchmarking",
+      "description": ""
+    },
+    {
+      "name": "Penetration Testing",
+      "description": ""
+    },
+    {
+      "name": "SAST/DAST/IAST",
+      "description": ""
+    },
+    {
+      "name": "Vulnerability Scanning",
+      "description": ""
+    }
+  ],
+  "Release": [
+    {
+      "name": "AI/ML Bill of Materials (BOM)",
+      "description": ""
+    },
+    {
+      "name": "Digital Model Signing",
+      "description": ""
+    },
+    {
+      "name": "Model Security Posture Evaluation",
+      "description": ""
+    },
+    {
+      "name": "Secure CI/CD pipeline",
+      "description": ""
+    },
+    {
+      "name": "Secure Supply Chain Verification",
+      "description": ""
+    },
+    {
+      "name": "Static and Dynamic Code Analysis",
+      "description": ""
+    },
+    {
+      "name": "User Access Control Validation",
+      "description": ""
+    }
+  ],
+  "Deploy": [
+    {
+      "name": "Compliance Verification",
+      "description": ""
+    },
+    {
+      "name": "Deployment Validation",
+      "description": ""
+    },
+    {
+      "name": "Encryption, Secrets management",
+      "description": ""
+    },
+    {
+      "name": "LLM Enabled Web Application Firewall",
+      "description": ""
+    },
+    {
+      "name": "Multi-factor Authentication",
+      "description": ""
+    },
+    {
+      "name": "Network Security Validation",
+      "description": ""
+    },
+    {
+      "name": "Secrets Management",
+      "description": ""
+    },
+    {
+      "name": "Secure API Access",
+      "description": ""
+    },
+    {
+      "name": "Secure Configuration",
+      "description": ""
+    },
+    {
+      "name": "User and Data Privacy Protections",
+      "description": ""
+    }
+  ],
+  "Operate": [
+    {
+      "name": "Adversarial Attack Protection",
+      "description": ""
+    },
+    {
+      "name": "Adversarial Input Detection",
+      "description": ""
+    },
+    {
+      "name": "Automated Vulnerability Scanning",
+      "description": ""
+    },
+    {
+      "name": "Data Integrity and Encryption",
+      "description": ""
+    },
+    {
+      "name": "Data Privacy and Protection",
+      "description": ""
+    },
+    {
+      "name": "LLM Guardrails",
+      "description": ""
+    },
+    {
+      "name": "LLM Incident Detection and Response",
+      "description": ""
+    },
+    {
+      "name": "Patch Management",
+      "description": ""
+    },
+    {
+      "name": "Privacy , Data Leakage Protection",
+      "description": ""
+    },
+    {
+      "name": "Prompt Security",
+      "description": ""
+    },
+    {
+      "name": "Runtime Application Self-Protection",
+      "description": ""
+    },
+    {
+      "name": "Secure Output Handling",
+      "description": ""
+    },
+    {
+      "name": "Security Alerting",
+      "description": ""
+    }
+  ],
+  "Monitor": [
+    {
+      "name": "Adversarial Input Detection",
+      "description": ""
+    },
+    {
+      "name": "AI/LLM Secure Posture Management",
+      "description": ""
+    },
+    {
+      "name": "Data Privacy and Protection",
+      "description": ""
+    },
+    {
+      "name": "Ethical Compliance",
+      "description": ""
+    },
+    {
+      "name": "Model Behavior Analysis",
+      "description": ""
+    },
+    {
+      "name": "Observability",
+      "description": ""
+    },
+    {
+      "name": "Patch and Update Alerts",
+      "description": ""
+    },
+    {
+      "name": "Regulatory Compliance Tracking",
+      "description": ""
+    },
+    {
+      "name": "Security Alerting",
+      "description": ""
+    },
+    {
+      "name": "Security Metrics Collection",
+      "description": ""
+    },
+    {
+      "name": "User Activity Monitoring",
+      "description": ""
+    }
+  ],
+  "Govern": [
+    {
+      "name": "Bias and Fairness Oversight",
+      "description": ""
+    },
+    {
+      "name": "Compliance Management",
+      "description": ""
+    },
+    {
+      "name": "Data Security Posture Management",
+      "description": ""
+    },
+    {
+      "name": "Incident Governance",
+      "description": ""
+    },
+    {
+      "name": "Risk Assessment and Management",
+      "description": ""
+    },
+    {
+      "name": "User/Machine Access audits",
+      "description": ""
+    }
+  ]
+}

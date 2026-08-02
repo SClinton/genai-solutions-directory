@@ -44,6 +44,14 @@ window.DB_CONFIG = {
     { key: "top10_2026", label: "Agentic Top 10 (2026) Risks Addressed" },
   ],
 
+  // Authoritative capability checklist (replaces the freeform coverage
+  // textarea): fetched, grouped by stage, rendered as checkboxes.
+  // Selections become the entry's "coverage" field.
+  taxonomy: {
+    path: "taxonomy/agentic_taxonomy.json",
+    containerId: "taxonomy-checklist",
+  },
+
   issueLabelNew: "agentic-new-submission",
   issueLabelEdit: "agentic-edit-suggestion",
 };

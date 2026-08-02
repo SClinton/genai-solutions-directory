@@ -139,11 +139,57 @@
     );
   }
 
+  function renderTaxonomyStage(container, team, stage, capabilities, existingCoverage) {
+    const stageBlock = document.createElement("div");
+    stageBlock.className = "taxonomy-stage";
+    const h4 = document.createElement("h4");
+    h4.textContent = stage;
+    stageBlock.appendChild(h4);
+
+    const grid = document.createElement("div");
+    grid.className = "checkbox-grid";
+    capabilities.forEach((cap) => {
+      const label = document.createElement("label");
+      label.className = "checkbox-chip";
+      const hasDescription = Boolean(cap.description && cap.description.trim());
+      if (hasDescription) {
+        label.title = cap.description;
+        label.classList.add("has-description");
+      }
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.name = "taxonomy";
+      if (team) input.dataset.team = team;
+      input.dataset.stage = stage;
+      input.value = cap.name;
+      if (isCapabilityChecked(existingCoverage, team, stage, cap.name)) input.checked = true;
+      label.appendChild(input);
+      const nameSpan = document.createElement("span");
+      nameSpan.textContent = cap.name;
+      label.appendChild(nameSpan);
+      grid.appendChild(label);
+    });
+    stageBlock.appendChild(grid);
+    container.appendChild(stageBlock);
+  }
+
+  // Two taxonomy shapes are supported:
+  //   flat:   { "Stage": [ {name, description}, ... ], ... }             (Agentic, GenAI)
+  //   nested: { "Team": { "Stage": [ {name, description}, ... ] }, ... } (Red Team)
   function renderTaxonomyChecklist(taxonomy, existingCoverage) {
     if (!cfg.taxonomy) return;
     const container = document.getElementById(cfg.taxonomy.containerId);
     if (!container) return;
     container.innerHTML = "";
+
+    const isFlat = Array.isArray(Object.values(taxonomy)[0]);
+
+    if (isFlat) {
+      Object.keys(taxonomy).forEach((stage) => {
+        renderTaxonomyStage(container, null, stage, taxonomy[stage], existingCoverage);
+      });
+      return;
+    }
 
     Object.keys(taxonomy).forEach((team) => {
       const teamFieldset = document.createElement("fieldset");
@@ -153,37 +199,7 @@
       teamFieldset.appendChild(legend);
 
       Object.keys(taxonomy[team]).forEach((stage) => {
-        const stageBlock = document.createElement("div");
-        stageBlock.className = "taxonomy-stage";
-        const h4 = document.createElement("h4");
-        h4.textContent = stage;
-        stageBlock.appendChild(h4);
-
-        const grid = document.createElement("div");
-        grid.className = "checkbox-grid";
-        taxonomy[team][stage].forEach((cap) => {
-          const label = document.createElement("label");
-          label.className = "checkbox-chip";
-          const hasDescription = Boolean(cap.description && cap.description.trim());
-          if (hasDescription) {
-            label.title = cap.description;
-            label.classList.add("has-description");
-          }
-          const input = document.createElement("input");
-          input.type = "checkbox";
-          input.name = "taxonomy";
-          input.dataset.team = team;
-          input.dataset.stage = stage;
-          input.value = cap.name;
-          if (isCapabilityChecked(existingCoverage, team, stage, cap.name)) input.checked = true;
-          label.appendChild(input);
-          const nameSpan = document.createElement("span");
-          nameSpan.textContent = cap.name;
-          label.appendChild(nameSpan);
-          grid.appendChild(label);
-        });
-        stageBlock.appendChild(grid);
-        teamFieldset.appendChild(stageBlock);
+        renderTaxonomyStage(teamFieldset, team, stage, taxonomy[team][stage], existingCoverage);
       });
 
       container.appendChild(teamFieldset);
@@ -193,9 +209,12 @@
   function collectTaxonomySelections() {
     const groups = new Map();
     document.querySelectorAll('input[name="taxonomy"]:checked').forEach((input) => {
-      const key = `${input.dataset.team}::${input.dataset.stage}`;
+      const team = input.dataset.team || null;
+      const key = `${team || ""}::${input.dataset.stage}`;
       if (!groups.has(key)) {
-        groups.set(key, { team: input.dataset.team, group: input.dataset.stage, items: [] });
+        const group = { group: input.dataset.stage, items: [] };
+        if (team) group.team = team;
+        groups.set(key, group);
       }
       groups.get(key).items.push(input.value);
     });
@@ -302,7 +321,8 @@
       lines.push("", `**${cfg.coverageLabel}:**`);
       if (data.coverage.length) {
         data.coverage.forEach((group) => {
-          lines.push(`- ${group.team} — ${group.group}: ${group.items.join(", ")}`);
+          const label = group.team ? `${group.team} — ${group.group}` : group.group;
+          lines.push(`- ${label}: ${group.items.join(", ")}`);
         });
       } else {
         lines.push("—");

@@ -1,0 +1,192 @@
+{
+  "Scoping/Planning": [
+    {
+      "name": "Conducting Agentic Threat Modeling",
+      "description": ""
+    },
+    {
+      "name": "Support for Gen AI Security Project - Agentic Security Threat Modeling Approach",
+      "description": ""
+    },
+    {
+      "name": "Identify system-wide non-human Identities & Auth Protocols",
+      "description": ""
+    },
+    {
+      "name": "Draft policy for Agent privilege boundaries",
+      "description": ""
+    },
+    {
+      "name": "Draft policy Agent for tool scopes",
+      "description": ""
+    },
+    {
+      "name": "Draft policy for delegation logic",
+      "description": ""
+    },
+    {
+      "name": "Define controls for memory scoping, isolation & long-term persistance",
+      "description": ""
+    }
+  ],
+  "Data Augmentation & Fine-Tuning": [
+    {
+      "name": "Apply differential privacy or obfuscation on sensitive data injected into agent memory.",
+      "description": ""
+    },
+    {
+      "name": "Apply PII & Sensitive data masking injected into agent components",
+      "description": ""
+    },
+    {
+      "name": "Data masking on structured data.",
+      "description": ""
+    },
+    {
+      "name": "Detect usage of poisoned models in training pipelines",
+      "description": ""
+    },
+    {
+      "name": "Agent Action Audit",
+      "description": ""
+    }
+  ],
+  "Development & Experimentation": [
+    {
+      "name": "Perform SAST/DAST on agent planning code, tool wrappers, & plugin interfaces.",
+      "description": ""
+    },
+    {
+      "name": "Harden agent loop logic against infinite loops, unsafe function routing, & unauthorized self-modification.",
+      "description": ""
+    },
+    {
+      "name": "Validate connector (e.g., MCP) contracts (input/output schemas & permissions).",
+      "description": ""
+    },
+    {
+      "name": "Implement policy enforcement hooks in Frameworks (e.g. LangGraph, CrewAI, Others)",
+      "description": ""
+    }
+  ],
+  "Test & Evaluation": [
+    {
+      "name": "Available Agent Scanning",
+      "description": ""
+    },
+    {
+      "name": "Agent Penetration Testing",
+      "description": ""
+    },
+    {
+      "name": "Adversarial red-teaming: goal drift, prompt injection, hallucination chaining, & over-permissioned tool usage.",
+      "description": ""
+    },
+    {
+      "name": "Multi-agent scenario simulations for collusion, misalignment, or deception detection.",
+      "description": ""
+    },
+    {
+      "name": "Validate agent decisions against expected goal plans.",
+      "description": ""
+    },
+    {
+      "name": "Sandboxed testing of all tool calls, code execution, cloud API triggers",
+      "description": ""
+    }
+  ],
+  "Release": [
+    {
+      "name": "Generate & verify model + agent + tool SBOMs - shared responsibility",
+      "description": ""
+    },
+    {
+      "name": "Register all agents in an internal trust registry",
+      "description": ""
+    },
+    {
+      "name": "Sign model weights, plugin manifests, & memory snapshots.",
+      "description": ""
+    }
+  ],
+  "Deploy": [
+    {
+      "name": "Enforce zero-trust policies between agents, tools, & external APIs",
+      "description": ""
+    },
+    {
+      "name": "Rotate all shared secrets, keys, & tokens with ephemeral, scoped credentials.",
+      "description": ""
+    },
+    {
+      "name": "Apply & manage runtime Guardrails",
+      "description": ""
+    },
+    {
+      "name": "Configure Inter-agent authorization policies, capabilities, & roles",
+      "description": ""
+    }
+  ],
+  "Operate": [
+    {
+      "name": "Monitor agent memory mutation patterns for drift",
+      "description": ""
+    },
+    {
+      "name": "Detect task replay, infinite delegation, or hallucination loops.",
+      "description": ""
+    },
+    {
+      "name": "Enable human-in-the-loop (HITL) override thresholds on high-risk or ambiguous actions",
+      "description": ""
+    },
+    {
+      "name": "Continuously scan loaded plugins for CVEs & privilege escalation vectors.",
+      "description": ""
+    },
+    {
+      "name": "LLM Incident Detection & Response",
+      "description": ""
+    },
+    {
+      "name": "Runtime guardrails & moderation; anomalous tool use",
+      "description": ""
+    }
+  ],
+  "Monitor": [
+    {
+      "name": "Correlate telemetry from agent step tracing, tool execution, & message logs.",
+      "description": ""
+    },
+    {
+      "name": "Alert on anomalies; e.g., goal reversal, unexpected plan depth, adversarial-input, excessive tool usage, or rapid inter-agent chatter.",
+      "description": ""
+    },
+    {
+      "name": "Audit reflection accuracy by comparing stated & observed planning outcomes.",
+      "description": ""
+    },
+    {
+      "name": "Use immutable logs (e.g., Sigstore, Immudb) for forensic readiness.",
+      "description": ""
+    }
+  ],
+  "Govern": [
+    {
+      "name": "Enforce role- & task-based access policies across agent populations & their tool access.",
+      "description": ""
+    },
+    {
+      "name": "Automate agent versioning, expiration, & rotation policies.",
+      "description": ""
+    },
+    {
+      "name": "Align control evidence with frameworks like EU AI Act, NIST AI RMF, & ISO/IEC 42001.",
+      "description": ""
+    },
+    {
+      "name": "Automate goal alignment audits, including adversarial review of long-term agent memory.",
+      "description": ""
+    }
+  ]
+}
