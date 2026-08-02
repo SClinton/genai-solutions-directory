@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Report an Issue — OWASP GenAI Security Project Solution Directory</title>
+<meta name="description" content="Report a bug, request a feature, or share feedback about the Solution Directory.">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+<link rel="icon" href="assets/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/favicon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="concept-banner">
+  ⚠️ Design concept only — this is a prototype, not an active or production application. Submissions are not processed automatically.
+</div>
+
+<header class="site-header">
+  <p class="breadcrumb"><a href="index.html">OWASP GenAI Security Project Solution Directory</a> / Report an Issue</p>
+  <div class="wrap header-row">
+    <h1>Report an Issue</h1>
+    <nav>
+      <a class="btn" href="index.html">← Back to directory</a>
+    </nav>
+  </div>
+</header>
+
+<main class="form-wrap">
+  <h1>Report an Issue</h1>
+  <p class="lede">
+    Found a bug, have a feature request, or general feedback about the directory itself (not a
+    specific solution entry — for that, use a database's own "Suggest an Edit" link)? This opens
+    a pre-filled GitHub Issue in this repository so a maintainer can review it.
+  </p>
+
+  <form id="feedback-form">
+    <div class="field">
+      <label for="issue_type">Issue Type <span aria-hidden="true">*</span></label>
+      <select id="issue_type" name="issue_type" required>
+        <option value="Bug / Something's Broken">Bug / Something's broken</option>
+        <option value="Feature Request">Feature request</option>
+        <option value="Data / Content Issue">Data or content issue</option>
+        <option value="General Feedback">General feedback</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="page">Which page or database?</label>
+      <select id="page" name="page">
+        <option value="">— Not sure / not applicable —</option>
+        <option value="Umbrella page">Umbrella page (directory home)</option>
+        <option value="Agentic Security Solutions">Agentic Security Solutions</option>
+        <option value="Red Team Solutions">Red Team Solutions</option>
+        <option value="GenAI Security Solutions">GenAI Security Solutions</option>
+        <option value="Embed widget">Embed widget</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="summary">Summary <span aria-hidden="true">*</span></label>
+      <input type="text" id="summary" name="summary" placeholder="A short, one-line summary" required>
+    </div>
+
+    <div class="field">
+      <label for="description">Description <span aria-hidden="true">*</span></label>
+      <textarea id="description" name="description" required
+        placeholder="What happened? What did you expect instead? Steps to reproduce, if it's a bug."></textarea>
+    </div>
+
+    <div class="field">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <div class="field">
+      <label for="email">Email <span aria-hidden="true">*</span></label>
+      <input type="email" id="email" name="email" required>
+      <span class="hint">Encrypted before it's included in the GitHub Issue — only used to follow up if needed.</span>
+    </div>
+
+    <div class="field captcha-field">
+      <label for="captcha_answer">What is <span id="captcha-question"></span>? <span aria-hidden="true">*</span></label>
+      <input type="text" id="captcha_answer" name="captcha_answer" inputmode="numeric" autocomplete="off" required>
+      <span class="hint hint-error" id="captcha-hint"></span>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">Open GitHub Issue to Submit</button>
+    </div>
+    <p class="form-note" id="form-note"></p>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><a href="index.html">← Back to directory</a></p>
+  </div>
+</footer>
+
+<script src="app.config.js"></script>
+<script src="shared/encryption.js"></script>
+<script src="shared/feedback-form.js"></script>
+</body>
+</html>
