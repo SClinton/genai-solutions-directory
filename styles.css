@@ -247,6 +247,25 @@ body {
   font-family: var(--font-heading);
 }
 
+/* Like .btn, but readable on a light page background (.btn's white-on-
+   translucent-white styling assumes a dark header/footer behind it). */
+.btn-secondary {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  color: var(--text-strong);
+  background: var(--bg-card);
+  font-family: var(--font-heading);
+}
+
+.btn-secondary:hover {
+  background: var(--tag-bg);
+}
+
 .btn-primary {
   background: var(--accent-cta);
   color: var(--accent-cta-contrast);

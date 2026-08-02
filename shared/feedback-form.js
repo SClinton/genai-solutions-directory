@@ -55,6 +55,34 @@
     ].join("\n");
   }
 
+  // Plain-text (no markdown) copy of the report, for the submitter's own
+  // records -- mailed via their own client (mailto:), never sent by us.
+  function buildConfirmationText(data) {
+    return [
+      `Your report: ${data.summary}`,
+      "",
+      `Issue type: ${data.issue_type}`,
+      `Page / database: ${data.page || "—"}`,
+      "",
+      `Description:`,
+      data.description,
+      "",
+      "---",
+      "This is a copy of what you submitted, for your own records.",
+      "Sent from your own email client -- nothing here was sent or stored automatically.",
+    ].join("\n");
+  }
+
+  function buildMailtoUrl(data) {
+    const email = document.getElementById("email").value.trim();
+    if (!email) return null;
+    return (
+      `mailto:${encodeURIComponent(email)}` +
+      `?subject=${encodeURIComponent(`Your report: ${data.summary}`)}` +
+      `&body=${encodeURIComponent(buildConfirmationText(data))}`
+    );
+  }
+
   function openIssue(data, note) {
     const { githubOwner, githubRepo } = window.SITE_CONFIG;
     const issueUrl =
@@ -65,12 +93,19 @@
 
     const win = window.open(issueUrl, "_blank", "noopener,noreferrer");
     if (win) {
-      note.textContent = "Opened a GitHub Issue in a new tab — submit it there to complete your report.";
+      note.textContent = "Your report was received — opened a GitHub Issue in a new tab, submit it there to complete your report.";
     } else {
       note.innerHTML =
         'Your browser blocked the popup. <a href="' +
         issueUrl +
         '" target="_blank" rel="noopener noreferrer">Click here to open the GitHub Issue</a>.';
+    }
+
+    const emailBtn = document.getElementById("email-copy-btn");
+    const mailtoUrl = buildMailtoUrl(data);
+    if (emailBtn && mailtoUrl) {
+      emailBtn.href = mailtoUrl;
+      emailBtn.hidden = false;
     }
   }
 

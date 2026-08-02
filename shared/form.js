@@ -399,6 +399,62 @@
     return data;
   }
 
+  // Plain-text (no markdown) copy of the submission, for the submitter's own
+  // records -- mailed via their own client (mailto:), never sent by us.
+  function buildConfirmationText(data, target) {
+    const lines = [];
+    lines.push(
+      mode === "edit"
+        ? `Edit suggestion for: ${target.current.title}`
+        : `New solution submission: ${data.title}`,
+      ""
+    );
+    lines.push(
+      `Solution / Product Name: ${data.title}`,
+      `Company / Project Name: ${data.company}`,
+      "",
+      `Description:`,
+      data.description,
+      "",
+      `Solution Link: ${data.link}`,
+      ""
+    );
+    cfg.formFacets.forEach((f) => {
+      lines.push(`${f.label}: ${(data[f.key] || []).join(", ") || "—"}`);
+    });
+    if (cfg.taxonomy) {
+      lines.push("", `${cfg.coverageLabel}:`);
+      if (data.coverage.length) {
+        data.coverage.forEach((group) => {
+          const label = group.team ? `${group.team} — ${group.group}` : group.group;
+          lines.push(`- ${label}: ${group.items.join(", ")}`);
+        });
+      } else {
+        lines.push("—");
+      }
+    } else {
+      lines.push("", `${cfg.coverageLabel}:`, data.characteristics || "—");
+    }
+    lines.push(
+      "",
+      "---",
+      "This is a copy of what you submitted, for your own records.",
+      "Sent from your own email client -- nothing here was sent or stored automatically."
+    );
+    return lines.join("\n");
+  }
+
+  function buildMailtoUrl(data, target) {
+    const email = document.getElementById("submitter_email").value.trim();
+    if (!email) return null;
+    const subject = mode === "edit" ? `Your edit suggestion: ${data.title}` : `Your submission: ${data.title}`;
+    return (
+      `mailto:${encodeURIComponent(email)}` +
+      `?subject=${encodeURIComponent(subject)}` +
+      `&body=${encodeURIComponent(buildConfirmationText(data, target))}`
+    );
+  }
+
   function openIssue(data, target, note) {
     const { githubOwner, githubRepo } = window.SITE_CONFIG;
     const label = mode === "edit" ? cfg.issueLabelEdit : cfg.issueLabelNew;
@@ -411,12 +467,19 @@
 
     const win = window.open(issueUrl, "_blank", "noopener,noreferrer");
     if (win) {
-      note.textContent = "Opened a GitHub Issue in a new tab — submit it there to complete your request.";
+      note.textContent = "Your submission was received — opened a GitHub Issue in a new tab, submit it there to complete your request.";
     } else {
       note.innerHTML =
         'Your browser blocked the popup. <a href="' +
         issueUrl +
         '" target="_blank" rel="noopener noreferrer">Click here to open the GitHub Issue</a>.';
+    }
+
+    const emailBtn = document.getElementById("email-copy-btn");
+    const mailtoUrl = buildMailtoUrl(data, target);
+    if (emailBtn && mailtoUrl) {
+      emailBtn.href = mailtoUrl;
+      emailBtn.hidden = false;
     }
   }
 
