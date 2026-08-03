@@ -26,6 +26,7 @@ window.DB_CONFIG = {
     },
     { key: "top10_2023", label: "LLM Top 10 (2023)", tagClass: "tag-risk" },
     { key: "top10_2025", label: "LLM Top 10 (2025)", tagClass: "tag-risk" },
+    { key: "top10_2026", label: "LLM Top 10 (2026)", tagClass: "tag-risk" },
   ],
 
   // Tag rows shown on each card
@@ -34,9 +35,10 @@ window.DB_CONFIG = {
     { key: "stage", tagClass: "tag-llmops", slot: "header-stage" },
     { key: "top10_2023", tagClass: "tag-risk" },
     { key: "top10_2025", tagClass: "tag-risk" },
+    { key: "top10_2026", tagClass: "tag-risk" },
   ],
 
-  searchKeys: ["solution_types", "stage", "top10_2023", "top10_2025"],
+  searchKeys: ["solution_types", "stage", "top10_2023", "top10_2025", "top10_2026"],
 
   // Checkbox groups on add.html / edit.html. top10_2025/top10_2026 pull
   // their options from the canonical risk files (risks/llm_risk_*.md) via
