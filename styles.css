@@ -745,11 +745,19 @@ html.embedded .site-header {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1.25;
-  /* Reserve room for the absolutely-positioned edit button + sponsor
-     badge stacked in the top-right corner (see .card-edit-btn /
-     .card-sponsor-badge) -- without this, a long title's first line or
-     two run underneath them instead of wrapping around. */
-  padding-right: 48px;
+  /* Reserve room for the absolutely-positioned .card-edit-btn in the
+     top-right corner -- without this, a long title's first line runs
+     underneath it instead of wrapping around. */
+  padding-right: 40px;
+}
+
+/* Sponsor badges render much wider than the edit button alone (silver's
+   the widest at this height: 88px tall * ~1.88 aspect ratio =~ 165px,
+   +10px right offset), so a sponsored card's title needs more room than
+   an unsponsored one -- see the has-sponsor-badge class toggle in
+   shared/site.js's renderCards(). */
+.card-head.has-sponsor-badge .card-title {
+  padding-right: 175px;
 }
 
 .card-company {
@@ -765,7 +773,7 @@ html.embedded .site-header {
   top: 40px;
   right: 10px;
   display: block;
-  height: 22px;
+  height: 88px;
   width: auto;
 }
 

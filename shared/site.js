@@ -267,6 +267,10 @@
           sponsorEl.src = sponsorImg;
           sponsorEl.alt = `${s.sponsorLevel[0].toUpperCase()}${s.sponsorLevel.slice(1)} sponsor`;
           sponsorEl.hidden = false;
+          // The badge is wide enough (see .card-sponsor-badge) that a
+          // long title needs more reserved space to route around it than
+          // an unsponsored card (which only has the edit button to clear).
+          node.querySelector(".card-head").classList.add("has-sponsor-badge");
         } else {
           sponsorEl.remove();
         }
