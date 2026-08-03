@@ -752,12 +752,12 @@ html.embedded .site-header {
 }
 
 /* Sponsor badges render much wider than the edit button alone (silver's
-   the widest at this height: 88px tall * ~1.88 aspect ratio =~ 165px,
+   the widest at this height: 62px tall * ~1.88 aspect ratio =~ 117px,
    +10px right offset), so a sponsored card's title needs more room than
    an unsponsored one -- see the has-sponsor-badge class toggle in
    shared/site.js's renderCards(). */
 .card-head.has-sponsor-badge .card-title {
-  padding-right: 175px;
+  padding-right: 120px;
 }
 
 .card-company {
@@ -773,7 +773,7 @@ html.embedded .site-header {
   top: 40px;
   right: 10px;
   display: block;
-  height: 88px;
+  height: 62px;
   width: auto;
 }
 
