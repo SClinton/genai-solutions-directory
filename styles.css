@@ -745,6 +745,11 @@ html.embedded .site-header {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1.25;
+  /* Reserve room for the absolutely-positioned edit button + sponsor
+     badge stacked in the top-right corner (see .card-edit-btn /
+     .card-sponsor-badge) -- without this, a long title's first line or
+     two run underneath them instead of wrapping around. */
+  padding-right: 48px;
 }
 
 .card-company {
@@ -756,10 +761,12 @@ html.embedded .site-header {
 }
 
 .card-sponsor-badge {
+  position: absolute;
+  top: 40px;
+  right: 10px;
   display: block;
-  height: 32px;
+  height: 22px;
   width: auto;
-  flex-shrink: 0;
 }
 
 .card-description {
