@@ -41,3 +41,5 @@ Synack
 Lasso
 Securiti
 Promptarmor
+
+## Platinum
