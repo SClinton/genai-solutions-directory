@@ -38,12 +38,15 @@ window.DB_CONFIG = {
 
   searchKeys: ["solution_types", "stage", "top10_2023", "top10_2025"],
 
-  // Checkbox groups on add.html / edit.html
+  // Checkbox groups on add.html / edit.html. top10_2025/top10_2026 pull
+  // their options from the canonical risk files (risks/llm_risk_*.md) via
+  // riskFile, rather than being derived from whatever values already exist
+  // in the data -- see shared/form.js's "Risk checklists" section.
   formFacets: [
     { key: "solution_types", label: "Solution Type", allowOther: true },
     { key: "stage", label: "AI-SDLC Stage(s)" },
-    { key: "top10_2023", label: "LLM Top 10 (2023) Risks Addressed" },
-    { key: "top10_2025", label: "LLM Top 10 (2025) Risks Addressed" },
+    { key: "top10_2025", label: "LLM Top 10 (2025) Risks Addressed", riskFile: "risks/llm_risk_25.md" },
+    { key: "top10_2026", label: "LLM Top 10 (2026) Risks Addressed", riskFile: "risks/llm_risk_26.md" },
   ],
 
   // Authoritative capability checklist (replaces the freeform coverage

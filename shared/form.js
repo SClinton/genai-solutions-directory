@@ -83,23 +83,87 @@
 
   function buildFacetValueSets(entries) {
     const values = {};
-    cfg.formFacets.forEach((f) => (values[f.key] = new Set()));
+    cfg.formFacets.forEach((f) => {
+      if (f.riskFile) return; // options come from the risk file, not existing data
+      values[f.key] = new Set();
+    });
     entries.forEach(({ current }) => {
       cfg.formFacets.forEach((f) => {
+        if (f.riskFile) return;
         (current[f.key] || []).forEach((v) => values[f.key].add(v));
       });
     });
     return values;
   }
 
-  function renderFacetCheckboxes(values, checkedSource) {
-    cfg.formFacets.forEach((f) => {
-      const container = document.getElementById(f.key);
-      if (!container) return;
-      const sorted = Array.from(values[f.key]).sort();
-      const checkedValues = (checkedSource && checkedSource[f.key]) || [];
-      sorted.forEach((v) => makeCheckbox(container, f.key, v, checkedValues.includes(v)));
+  // --- Risk checklists (a formFacet with `riskFile` set) ---------------------
+  // Options come from a canonical "| ID | Name | ... |" markdown table
+  // (e.g. genai/risks/llm_risk_25.md) instead of being derived from whatever
+  // values already exist in the data -- so every item is always offered,
+  // even ones nothing has picked yet, and stays in sync automatically if the
+  // risk file changes (same dynamic-pickup principle as the taxonomy
+  // checklist). Only the ID (e.g. "LLM01:25") is stored as the checkbox's
+  // value / submitted data -- the name is shown as the label purely for
+  // readability and isn't saved anywhere.
+
+  const riskListCache = {};
+
+  function parseRiskMarkdownTable(text) {
+    const items = [];
+    let headerSeen = false;
+    text.split("\n").forEach((rawLine) => {
+      const line = rawLine.trim();
+      if (!line.startsWith("|") || !line.endsWith("|")) return;
+      const cells = line.slice(1, -1).split("|").map((c) => c.trim());
+      if (!headerSeen) {
+        if ((cells[0] || "").toLowerCase() === "id") headerSeen = true;
+        return;
+      }
+      if (cells.every((c) => /^-+$/.test(c))) return; // separator row
+      if (!cells[0]) return;
+      items.push({ id: cells[0], name: cells[1] || "", description: cells[2] || "" });
     });
+    return items;
+  }
+
+  async function loadRiskList(path) {
+    if (riskListCache[path]) return riskListCache[path];
+    const text = await fetch(path).then((r) => r.text());
+    const items = parseRiskMarkdownTable(text);
+    riskListCache[path] = items;
+    return items;
+  }
+
+  function makeRiskCheckbox(container, name, item, isChecked) {
+    const label = document.createElement("label");
+    label.className = "checkbox-chip";
+    if (item.description) {
+      label.title = item.description;
+      label.classList.add("has-description");
+    }
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.name = name;
+    input.value = item.id;
+    if (isChecked) input.checked = true;
+    label.appendChild(input);
+    label.appendChild(document.createTextNode(`${item.id} — ${item.name}`));
+    container.appendChild(label);
+  }
+
+  async function renderFacetCheckboxes(values, checkedSource) {
+    for (const f of cfg.formFacets) {
+      const container = document.getElementById(f.key);
+      if (!container) continue;
+      const checkedValues = (checkedSource && checkedSource[f.key]) || [];
+      if (f.riskFile) {
+        const items = await loadRiskList(f.riskFile);
+        items.forEach((item) => makeRiskCheckbox(container, f.key, item, checkedValues.includes(item.id)));
+        continue;
+      }
+      const sorted = Array.from(values[f.key] || []).sort();
+      sorted.forEach((v) => makeCheckbox(container, f.key, v, checkedValues.includes(v)));
+    }
   }
 
   function getChecked(name) {
@@ -490,7 +554,7 @@
     initCaptcha();
     try {
       const entries = await loadAllCurrentSolutions();
-      renderFacetCheckboxes(buildFacetValueSets(entries), null);
+      await renderFacetCheckboxes(buildFacetValueSets(entries), null);
       if (cfg.taxonomy) renderTaxonomyChecklist(await loadTaxonomy(), null);
     } catch (err) {
       console.error("Failed to load facet values", err);
@@ -540,6 +604,8 @@
     document.getElementById("company").value = s.company || "";
     document.getElementById("description").value = s.description || "";
     document.getElementById("link").value = s.link || "";
+    if (s.submitter_email) document.getElementById("submitter_email").value = s.submitter_email;
+    if (s.submitter_affiliation) document.getElementById("submitter_affiliation").value = s.submitter_affiliation;
 
     if (cfg.taxonomy) {
       renderTaxonomyChecklist(await loadTaxonomy(), s.coverage || []);
@@ -550,7 +616,7 @@
       }
     }
 
-    renderFacetCheckboxes(buildFacetValueSets(entries), s);
+    await renderFacetCheckboxes(buildFacetValueSets(entries), s);
     initLogoUpload();
     initCaptcha();
 
