@@ -25,8 +25,8 @@ window.DB_CONFIG = {
       ],
     },
     { key: "top10_2023", label: "LLM Top 10 (2023)", tagClass: "tag-risk" },
-    { key: "top10_2025", label: "LLM Top 10 (2025)", tagClass: "tag-risk" },
-    { key: "top10_2026", label: "LLM Top 10 (2026)", tagClass: "tag-risk" },
+    { key: "top10_2025", label: "LLM Top 10 (2025)", tagClass: "tag-risk", riskFile: "risks/llm_risk_25.md" },
+    { key: "top10_2026", label: "LLM Top 10 (2026)", tagClass: "tag-risk", riskFile: "risks/llm_risk_26.md" },
   ],
 
   // Tag rows shown on each card

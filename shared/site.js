@@ -88,6 +88,41 @@
     });
   }
 
+  // Risk facets (a facet with `riskFile` set) pull their full option list
+  // from a canonical "| ID | Name | ... |" markdown table (e.g.
+  // genai/risks/llm_risk_25.md) instead of only whatever values already
+  // exist in the loaded data -- so every risk is always offered as a
+  // filter, even ones nothing has been tagged with yet. Mirrors
+  // shared/form.js's identically-named helpers for the add/edit
+  // checklists, which read the same files.
+  const riskListCache = {};
+
+  function parseRiskMarkdownTable(text) {
+    const items = [];
+    let headerSeen = false;
+    text.split("\n").forEach((rawLine) => {
+      const line = rawLine.trim();
+      if (!line.startsWith("|") || !line.endsWith("|")) return;
+      const cells = line.slice(1, -1).split("|").map((c) => c.trim());
+      if (!headerSeen) {
+        if ((cells[0] || "").toLowerCase() === "id") headerSeen = true;
+        return;
+      }
+      if (cells.every((c) => /^-+$/.test(c))) return; // separator row
+      if (!cells[0]) return;
+      items.push({ id: cells[0], name: cells[1] || "" });
+    });
+    return items;
+  }
+
+  async function loadRiskList(path) {
+    if (riskListCache[path]) return riskListCache[path];
+    const text = await fetch(path).then((r) => r.text());
+    const items = parseRiskMarkdownTable(text);
+    riskListCache[path] = items;
+    return items;
+  }
+
   function sortFacetValues(values, order) {
     if (!order) return values.sort();
     return values.sort((a, b) => {
@@ -100,7 +135,7 @@
     });
   }
 
-  function buildFacets() {
+  async function buildFacets() {
     const values = {};
     cfg.facets.forEach((f) => (values[f.key] = new Set()));
     for (const s of state.all) {
@@ -108,6 +143,14 @@
         (s[f.key] || []).forEach((v) => values[f.key].add(v));
       });
     }
+    await Promise.all(
+      cfg.facets
+        .filter((f) => f.riskFile)
+        .map(async (f) => {
+          const items = await loadRiskList(f.riskFile);
+          items.forEach((item) => values[f.key].add(item.id));
+        })
+    );
     for (const f of cfg.facets) {
       const facet = f.key;
       const container = document.getElementById(`facet-${facet}`);
@@ -377,9 +420,9 @@
   }
 
   loadData()
-    .then(() => {
+    .then(async () => {
       buildFacetDropdownShells();
-      buildFacets();
+      await buildFacets();
       setupDropdowns();
       render();
     })

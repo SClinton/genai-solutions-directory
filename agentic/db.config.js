@@ -24,7 +24,7 @@ window.DB_CONFIG = {
         "Govern",
       ],
     },
-    { key: "top10_2026", label: "Agentic Top 10 (2026)", tagClass: "tag-risk" },
+    { key: "top10_2026", label: "Agentic Top 10 (2026)", tagClass: "tag-risk", riskFile: "risks/agentic_risk_26.md" },
   ],
 
   // Tag rows shown on each card
@@ -41,7 +41,7 @@ window.DB_CONFIG = {
     { key: "solution_types", label: "Solution Type", allowOther: true },
     { key: "llmops_stages", label: "LLMOps Stage(s)" },
     { key: "sldc_stages", label: "Agentic SDLC Phase(s)" },
-    { key: "top10_2026", label: "Agentic Top 10 (2026) Risks Addressed" },
+    { key: "top10_2026", label: "Agentic Top 10 (2026) Risks Addressed", riskFile: "risks/agentic_risk_26.md" },
   ],
 
   // Authoritative capability checklist (replaces the freeform coverage
